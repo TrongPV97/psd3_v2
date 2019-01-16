@@ -1,0 +1,149 @@
+
+
+@media #{$res_1024} {
+	.wrapper{
+		footer{
+			background: #000;
+			.container{
+				.footer-top--pc{
+					display: flex;
+					border-bottom: solid 1px #e4e2e1;
+					padding-bottom: 20px;
+					.footer-link{
+
+						&__top{
+							display: flex;
+							justify-content: space-between;
+							padding-right: 40px;
+						}
+						&__bot{
+							display: flex;
+
+							&__list{
+								flex-basis:307px;
+								h1{
+									font-size: 14px;
+									color: #aaaaaa;
+									font-family: PlayfairDisplaySC_Regular;
+									font-weight: 200;
+									margin-top: 26px;
+									margin-bottom: 25px;	
+								}
+								p{
+									font-family: Nunito_Light;
+									font-size: 10px;
+									color: #aaaaaa;
+									font-weight: 100;
+									text-transform: uppercase;
+									line-height: 2;
+								}
+
+							}
+							&__map{
+								display: flex;
+								margin-top: 35px;
+								margin-left: 60px;
+							}
+
+						}
+						&__map{
+							&__info{
+								padding-left: 16px;
+							}
+							&__name{
+								h1{
+								font-size: 14px;
+								color: #aaaaaa;
+								font-family: PlayfairDisplaySC_Regular;
+								font-weight: 200;
+								margin-bottom: 11px;	
+								}
+							}
+							&__adress{
+								
+								address{
+									font-family: Nunito_Light;
+									font-size: 10px;
+									color: #aaaaaa;
+									font-weight: 100;
+									text-transform: uppercase;
+									line-height: 1.7;
+								}
+							}
+								
+								
+							
+						}
+					
+						flex-basis:700px;
+					}
+					.footer-fb{
+						h1{
+							font-size: 14px;
+							color: #aaaaaa;
+							font-family: PlayfairDisplaySC_Regular;
+							font-weight: 200;
+							margin-top: 26px;
+							margin-bottom: 25px;
+						}
+					}
+				}
+				.footer-top--mb{
+					display: none;
+				}
+
+				.footer-center{
+					display: flex;
+					flex-direction:row;
+					justify-content: space-between;
+					border-bottom: solid 1px #e4e2e1;
+					padding-bottom: 18px;
+		
+				}
+				.connect{
+					padding-top: 25px;
+					border: none;
+					
+					ul{
+						padding: 4px 9px 0 9px;
+						display: flex;
+
+						justify-content: space-between;
+						li{
+							padding-left: 13px;
+							width: 25px;
+							height: 25px;
+							
+						}
+					}
+					
+				}
+
+				.footer-coppyr{
+					display: flex;
+					padding-top: 16px;
+					align-item:center;
+					justify-content:space-between;
+					&__right{
+						order:2;
+						ul{
+							li{
+								padding-left: 40px;
+								a{
+									img{
+										height: 50%;
+									}
+								}
+							}
+						}
+					}
+					&__left{
+						order:1;
+					}
+				}
+			}
+		}
+
+	}
+  
+}

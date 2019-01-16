@@ -26,7 +26,8 @@
   'layout/header_ipad',
   'layout/footer',
   'layout/footer_ipad',
-  'layout/header_pc';
+  'layout/header_pc',
+  'layout/footer_pc';
 
 // 5. Components
 @import
@@ -56,7 +57,9 @@
   'components/popular_list_pc',
   'components/blog_list_pc',
   'components/topbrand_list_pc',
-  'components/benefit_list_pc';
+  'components/benefit_list_pc',
+  'components/newsletter_pc',
+  'components/footer-link_pc';
   
 
 
