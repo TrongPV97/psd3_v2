@@ -848,7 +848,6 @@ $res_1200 : "only screen and (min-width: 1200px)"; */
 }
 
 .topbrand {
-  border-bottom: solid 1px #e4e2e1;
   padding-bottom: 19px;
 }
 
@@ -1124,7 +1123,6 @@ $res_1200 : "only screen and (min-width: 1200px)"; */
 
 @media only screen and (min-width: 760px) and (max-width: 1024px) {
   .topbrand {
-    border-bottom: solid 1px #e4e2e1;
     padding-bottom: 19px;
   }
   .topbrand__list--display {
@@ -1388,7 +1386,6 @@ $res_1200 : "only screen and (min-width: 1200px)"; */
 
 @media only screen and (min-width: 1024px) {
   .topbrand {
-    border-bottom: solid 1px #e4e2e1;
     padding-bottom: 19px;
   }
   .topbrand__list--display {
@@ -1576,8 +1573,9 @@ $res_1200 : "only screen and (min-width: 1200px)"; */
 }
 
 .wrapper main .topbrand__list {
+  border-top: solid 1px #e4e2e1;
+  border-bottom: solid 1px #e4e2e1;
   padding-top: 30px;
-  border: solid 1px #e4e2e1;
   padding-bottom: 20px;
 }
 
@@ -1665,12 +1663,9 @@ $res_1200 : "only screen and (min-width: 1200px)"; */
     margin-top: 13px;
   }
   .wrapper main .topbrand__title {
-    margin-bottom: 0px;
-    border-bottom: solid 1px #e4e2e1;
     position: relative;
     height: 24px;
     margin-bottom: 35px;
-    border: none;
   }
   .wrapper main .topbrand__title h1 {
     font-family: PlayfairDisplaySC_Regular;
@@ -1685,13 +1680,7 @@ $res_1200 : "only screen and (min-width: 1200px)"; */
     background: #fff;
     padding: 0 5px 0 5px;
   }
-  .wrapper main .topbrand__list {
-    padding-top: 30px;
-    border: solid 1px #e4e2e1;
-    padding-bottom: 20px;
-  }
   .wrapper main .benefit {
-    padding-top: 35px;
     padding-bottom: 20px;
   }
 }
@@ -1796,13 +1785,7 @@ $res_1200 : "only screen and (min-width: 1200px)"; */
     background: #fff;
     padding: 0 5px 0 5px;
   }
-  .wrapper main .topbrand__list {
-    padding-top: 30px;
-    border: solid 1px #e4e2e1;
-    padding-bottom: 20px;
-  }
   .wrapper main .benefit {
-    padding-top: 35px;
     padding-bottom: 20px;
   }
 }

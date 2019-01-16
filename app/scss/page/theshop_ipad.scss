@@ -94,8 +94,6 @@ $res_760 : "only screen and (min-width: 760px) and (max-width: 1024px)";
 			.topbrand{
 
 				&__title{
-					margin-bottom: 0px;
-					border-bottom: solid 1px #e4e2e1;
 					position: relative;
 					height: 24px;
 					margin-bottom: 35px;
@@ -114,17 +112,10 @@ $res_760 : "only screen and (min-width: 760px) and (max-width: 1024px)";
 
 
 					}
-					border:none;
-				}
-				&__list{
-					padding-top: 30px;
-					border: solid 1px #e4e2e1;
-					padding-bottom: 20px;
 				}
 				
 			}
 			.benefit{
-				padding-top: 35px;
 				padding-bottom: 20px;
 			}
 		}
