@@ -17,14 +17,16 @@
   'base/fonts',
   'base/typography',
   'base/base_ipad',
-  'base/helpers';
+  'base/helpers',
+  'base/base_pc';
 
 // 4. Layout-related sections
 @import
   'layout/header_mobile',
   'layout/header_ipad',
   'layout/footer',
-  'layout/footer_ipad';
+  'layout/footer_ipad',
+  'layout/header_pc';
 
 // 5. Components
 @import
@@ -46,14 +48,23 @@
    'components/topbrand_list_ipad',
    'components/benefit_list_ipad',
   'components/footer-link_ipad',
-  'components/newsletter_ipad';
+  'components/newsletter_ipad',
+  //pc
+  'components/menu_nav_pc',
+  'components/slide_pc',
+  'components/new_list_pc',
+  'components/popular_list_pc',
+  'components/blog_list_pc',
+  'components/topbrand_list_pc',
+  'components/benefit_list_pc';
   
 
 
 // 6. Page-specific styles
 @import
   'page/theshop_mobile',
-  'page/theshop_ipad';
+  'page/theshop_ipad',
+  'page/theshop_pc';
 
 // 7. Themes
 /* @import

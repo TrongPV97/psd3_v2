@@ -1,0 +1,41 @@
+@media #{$res_1024} {
+	.benefit{			
+		&__list{
+			justify-content: space-around;
+			display: flex;
+			&__item{
+				display: flex;
+
+			}
+			
+			&__num{
+				h1{
+					font-size: 24px;
+					font-family: PlayfairDisplaySC_Regular;
+					font-weight: 500;
+					margin-top: -5px;
+					padding-right: 9px;
+	
+				}
+			}
+			&__name{
+				h1{
+					font-family: PlayfairDisplaySC_Regular;
+					font-size: 13px;
+					text-transform: uppercase;
+
+				}
+			}
+			&__describe{
+				p{
+					padding-top: 1px;
+					font-size: 10px;
+					font-family: Nunito_Light;
+					font-weight: bold;
+					text-transform: uppercase;
+				}
+			}
+		}	
+
+	}
+}

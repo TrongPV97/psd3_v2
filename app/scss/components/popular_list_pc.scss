@@ -1,4 +1,4 @@
-@media #{$res_760} {
+@media #{$res_1024} {
 	.popular{
 		&__list{
 			&--ip{
@@ -10,9 +10,13 @@
 			&--display{
 				display: block;
 				&--ip{
-					display: none;
+					display: block;
 				}
 			}
+			&__sale{
+			
+			left: 0px;
+				}
 
 		}
 		

@@ -1,0 +1,23 @@
+@media #{$res_1024} {
+	.topbrand{
+		&__list{
+
+			&--display{
+				display: block;
+			}
+			ul{
+				display: flex;
+				justify-content: space-around;
+			}
+			&__1,&__2,&__3,&__4,&__5,&__6{
+				display: block;
+			}
+
+		}
+		border-bottom: solid 1px #e4e2e1;
+		padding-bottom: 19px;
+		
+		
+
+	}
+}

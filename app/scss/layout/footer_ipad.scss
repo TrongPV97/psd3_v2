@@ -43,9 +43,8 @@
 					&__right{
 						order:2;
 						ul{
-							display: flex;
-							justify-content: space-around;
 							li{
+								padding-left: 40px;
 								a{
 									img{
 										height: 50%;
@@ -56,15 +55,6 @@
 					}
 					&__left{
 						order:1;
-						p{
-							font-family: Nunito_Light;
-							font-size: 10px;
-							text-align: center;
-							color: #9f9f9f;
-							text-transform: uppercase;
-							padding-top: 13px;
-							padding-bottom: 20px;
-						}
 					}
 				}
 			}

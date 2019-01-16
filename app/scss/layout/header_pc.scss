@@ -1,12 +1,5 @@
-$res_760 : "only screen and (min-width: 760px) and (max-width: 1024px)";
-/* $res_375 : "only screen and (min-width: 375px) and (max-width: 424px)";
-$res_425 : "only screen and (min-width: 425px) and (max-width: 767px)";
-$res_768 : "only screen and (min-width: 768px) and (max-width: 991px)";
-$res_992 : "only screen and (min-width: 992px) and (max-width: 1023px)";
-$res_1024 : "only screen and (min-width: 1024px) and (max-width: 1999px)";
-$res_1200 : "only screen and (min-width: 1200px)"; */
 
-@media #{$res_760} {
+@media #{$res_1024} {
 	.wrapper{
 		header{
 			.topbar{
@@ -15,18 +8,33 @@ $res_1200 : "only screen and (min-width: 1200px)"; */
 				.container{
 					position: relative;
 					display: flex;
+					justify-content: space-between;
+					align-items:center;
 				}
 
 				.topbar__left{
 					display: flex;
 					&--display{
-						display: none;
+						display: block;
+
+					}
+					select{
+						border: none;
+		  				background: #000000;
+		  				font-family: Nunito_Light;
+		  				font-size: 10px;
+		  				text-transform: uppercase;
+		  				color: #aaaaaa;
+		  				padding:14px 0px 14px 0px;
+		  				margin-right: 21px;
+		  				font-weight: 500;
 					}
 				}
+
 				.topbar__center{
 					display: flex;
 					align-items:center;
-					margin-left: 396px;
+					
 					p{
 						font-family: Nunito_Light;
 						font-size: 10px;
@@ -36,7 +44,29 @@ $res_1200 : "only screen and (min-width: 1200px)"; */
 					}
 				}
 				.topbar__right{
-					display: none;
+					display: block;
+					ul{
+						display: flex;
+						align-item:center;
+						li{ 
+							display: flex;
+							a{
+								font-family: Nunito_Light;
+								color: #aaaaaa;
+								font-size: 10px;
+								text-transform: uppercase;
+								border-right: solid 1px #aaaaaa;
+								padding: 0 9px;
+
+
+							}
+						}
+						li:last-child{
+							a{
+								border-right: none;
+							}
+						}
+					}
 				}
 
 			}
@@ -49,8 +79,8 @@ $res_1200 : "only screen and (min-width: 1200px)"; */
 	  				text-transform: uppercase;
 	  				font-weight: 500;
 	  				font-size: 36px;
-	  				margin-top: 17px;
-	  				margin-bottom: 22px;
+	  				margin-top: 36px;
+	  				margin-bottom: 36px;
 				}
 				&__right{
 					position: relative;
@@ -58,8 +88,8 @@ $res_1200 : "only screen and (min-width: 1200px)"; */
 						display: flex;
 		  				align-items:center;
 		  				position: absolute;
-		  				top: 139px;
-		  				right:50%;
+		  				top: 91px;
+		  				right:36.5%;
 		  				transform: translateX(467%);
 		  				img{
 		  					padding: 8px;
@@ -82,8 +112,8 @@ $res_1200 : "only screen and (min-width: 1200px)"; */
 		  				display: flex;
 		  				align-items:center;
 		  				transform: translateX(-397%);
-		  				left: 50%;
-		  				top: 144px;
+		  				left: 99%;
+		  				top: 99px;
 
 		  				a{
 		  					font-family: Nunito_Light;
