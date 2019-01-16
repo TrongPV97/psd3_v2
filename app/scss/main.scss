@@ -59,7 +59,10 @@
   'components/topbrand_list_pc',
   'components/benefit_list_pc',
   'components/newsletter_pc',
-  'components/footer-link_pc';
+  'components/footer-link_pc',
+  //blog
+  'components/blog/blog-news_list',
+  'components/blog/blog-news_list_ipad';
   
 
 
@@ -67,7 +70,9 @@
 @import
   'page/theshop_mobile',
   'page/theshop_ipad',
-  'page/theshop_pc';
+  'page/theshop_pc',
+  'page/blog/blog',
+  'page/blog/blog_ipad';
 
 // 7. Themes
 /* @import
