@@ -110,13 +110,16 @@
   						}
 					}
 					&__search{
+						border-left: solid 1px #e4e2e1;
+						border-right: solid 1px #e4e2e1;
 						position: absolute;
 		  				top: 139px;
 		  				display: flex;
 		  				align-items:center;
 		  				transform: translateX(-397%);
-		  				left: 103%;
-		  				top: 24px;
+		  				left: 117%;
+		  				top: 19px;
+		  				padding: 5px 23px 5px 10px;
 
 		  				a{
 		  					font-family: Nunito_Light;
