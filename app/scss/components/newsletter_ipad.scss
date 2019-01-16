@@ -1,0 +1,22 @@
+@media #{$res_760} {
+	.newsletter{
+		h1{
+			font-family: PlayfairDisplaySC_Regular;
+			font-size: 14px;
+			color: #eeeeee;
+			font-weight: 500;
+			padding-right: 8px;
+			padding-left: 6px;
+		}
+		input{
+			width: 280px;
+			height: 32px;
+			margin-right: 2px;
+		}
+		&__icon{
+			right: 12px;
+			top: 32px;
+
+		}
+	}
+}

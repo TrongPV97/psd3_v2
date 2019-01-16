@@ -1,0 +1,19 @@
+@media #{$res_760} {
+  .wrapper{
+    header{
+
+      .menu{
+        padding-bottom: 10px;
+        img{
+          padding: 7px 18px 7px 36px;
+          border-right: solid 1px #e4e2e1;
+          width: 5%;
+        }
+        nav{
+           display: none;
+        }
+      }
+    }
+  }
+  
+}

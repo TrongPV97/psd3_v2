@@ -1,0 +1,44 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+html,body{
+	padding: 0px;
+	margin: 0px;
+}
+img {
+  width: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.clearfix{
+  clear: both;
+}
+.wrapper{
+  min-width: 320px;
+  margin: 0 auto;
+}
+.container{
+  width: 311px;
+  margin: 0 auto;
+}
+.container-fluid{
+  width: 100%;
+  margin: 0 auto;
+}
+.flexBtw{
+	display: flex;
+	justify-content: space-around;
+}
+a{
+  text-decoration: none;
+}
+
+li{
+	list-style: none;
+}

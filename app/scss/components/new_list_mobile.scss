@@ -1,0 +1,40 @@
+
+	.new{
+		&__list{
+			display: flex;
+			justify-content: space-between;
+			padding-left: 35px;
+			padding-right: 34px;
+			margin-bottom: 10px;
+			&__img{
+				width: 102px;
+			}
+			
+			&__info{
+				display: flex;
+				width: 128px;
+				flex-direction: column;
+				padding-left: 10px;
+				&__name{
+					h1{
+						font-size: 18px;
+						padding-top: 7px;
+						font-family: PlayfairDisplaySC_Regular;
+						text-transform: uppercase;
+						line-height: 1;
+						font-weight: 600;
+					}
+				}
+				&__describe{
+					p{
+						font-family: Nunito_Light;
+						font-size: 10px;
+						padding-top: 7px;
+						font-weight: 600;
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+
+	}

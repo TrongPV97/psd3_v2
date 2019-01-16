@@ -1,0 +1,65 @@
+@media #{$res_760} {
+	.popular{
+		&__list{
+			&--ip{
+				display: flex;
+				justify-content: space-between;
+			}
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+
+			&--display{
+				display: block;
+				&--ip{
+					display: none;
+				}
+			}
+			&__info{
+				display: flex;
+				flex-direction: column;
+				&__name{
+					h1{
+						font-size: 14px;
+						padding-top: 7px;
+						font-family: PlayfairDisplaySC_Regular;
+						text-transform: uppercase;
+						line-height: 1;
+						font-weight: 600;
+						text-align: center;
+					}
+				}
+				&__describe{
+					p{
+						font-family: Nunito_Light;
+						font-size: 11px;
+						padding-top: 7px;
+						font-weight: 600;
+						text-align: center;
+						text-transform: uppercase;
+					}
+				}
+			}
+			&__sale{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			img{
+				width: 102%;
+			}
+			p{
+				font-size: 11px;
+				position: absolute;
+				font-family: PlayfairDisplaySC_Bold;
+				color: #fff;
+				font-weight: 600;
+				top: 5.5px;
+				left: 2px;
+			}
+		}
+		}
+		
+
+	}
+}

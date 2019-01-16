@@ -1,0 +1,27 @@
+
+	.footer-top--mb{
+
+		ul{
+			display: flex;
+			padding-top: 15px;
+			border-bottom: solid 1px #e4e2e1;
+			padding-bottom: 17px;
+			flex-wrap:wrap;			
+			li{
+				a{
+					font-family: Nunito_Light;
+					font-size: 10px;
+					color: #666666;
+					text-transform: uppercase;
+					padding-right: 9px;
+					padding-left: 7px;
+					border-right: solid 1px #aaaaaa;
+					font-weight: 600;	
+				}
+			}				
+		}
+		&--bordern:last-child{
+			border-right: none !important;
+		}
+		
+	}

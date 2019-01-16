@@ -1,0 +1,22 @@
+
+	.topbrand{
+		&__list{
+
+			&--display{
+				display: none;
+			}
+			ul{
+				display: flex;
+				justify-content: space-around;
+			}
+			&__1,&__2,&__5,&__6{
+				display: none;
+			}
+
+		}
+		border-bottom: solid 1px #e4e2e1;
+		padding-bottom: 19px;
+		
+		
+
+	}

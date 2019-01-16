@@ -1,0 +1,34 @@
+
+	.benefit{			
+		&__list{
+			padding-left: 15px;
+			column-count:3;
+			Column-gap:14px;
+			&__num{
+				h1{
+					font-size: 24px;
+					font-family: PlayfairDisplaySC_Regular;
+					font-weight: 500;
+
+				}
+			}
+			&__name{
+				h1{
+					font-family: PlayfairDisplaySC_Regular;
+					font-size: 13px;
+					text-transform: uppercase;
+
+				}
+			}
+			&__describe{
+				p{
+					padding-top: 6px;
+					font-size: 10px;
+					font-family: Nunito_Light;
+					font-weight: bold;
+					text-transform: uppercase;
+				}
+			}
+		}	
+
+	}

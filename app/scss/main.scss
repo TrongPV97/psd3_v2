@@ -1,0 +1,60 @@
+@charset 'UTF-8';
+
+
+// 1. Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+// 2. Vendors
+/* @import
+  'vendors/normalize'; */
+
+// 3. Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography',
+  'base/base_ipad',
+  'base/helpers';
+
+// 4. Layout-related sections
+@import
+  'layout/header_mobile',
+  'layout/header_ipad',
+  'layout/footer',
+  'layout/footer_ipad';
+
+// 5. Components
+@import
+  'components/menu_nav_mobile',
+  'components/slide_mobile',
+  'components/new_list_mobile',
+  'components/popular_list_mobile',
+  'components/blog_list_mobile',
+  'components/topbrand_list_mobile',
+  'components/benefit_list_mobile',
+  'components/footer-link_mobile',
+  'components/newsletter_mobile',
+  //ipad
+  'components/menu_nav_ipad',
+  'components/slide_ipad',
+  'components/new_list_ipad',
+  'components/popular_list_ipad',
+  'components/blog_list_ipad',
+   'components/topbrand_list_ipad',
+   'components/benefit_list_ipad',
+  'components/footer-link_ipad',
+  'components/newsletter_ipad';
+  
+
+
+// 6. Page-specific styles
+@import
+  'page/theshop_mobile',
+  'page/theshop_ipad';
+
+// 7. Themes
+/* @import
+  'themes/default'; */ 

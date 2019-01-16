@@ -1,0 +1,66 @@
+
+	.blog{
+		margin-top: 26px;
+		.container{
+			border: solid 1px #e4e2e1;
+		}	
+		&__list{
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			padding-left: 38px;
+			padding-right: 96px;
+			margin-bottom: 21px;
+			&--ip{
+				display: none;
+			}
+			&__info{
+				display: flex;
+				flex-direction: column;
+				background: #fff;
+				position: absolute;
+				width: 126px;
+				top: 81px;
+				right: 5px;
+				padding: 13px 12px;
+				
+
+			}
+			&__name{
+					h1{
+						font-size: 14px;
+						
+						font-family: Nunito_Light;
+						text-transform: uppercase;
+						line-height: 1;
+						font-weight: 500;
+						text-align: left;
+					}
+				}
+			&__describe{
+				p{
+
+					font-family: Nunito_Light;
+					font-size: 10px;
+					padding-top: 7px;
+					font-weight: 500;
+					color: #aaaaaa;
+					text-align: left;
+					text-transform: uppercase;
+				}
+			}			
+		}
+		a{
+			padding-bottom: 11px;
+			padding-right: 30px;
+			display: block;
+			float: right;
+			text-decoration:underline ;
+			font-size: 14px;
+			font-family: PlayfairDisplaySC_Regular;
+			color: #000;
+			font-weight: 600;
+		}
+
+	}
