@@ -71,6 +71,9 @@
 
 			}
 			.title-page{
+				.container{
+					position: relative;
+				}
 				
 				h1{
 					text-align: center;
@@ -83,12 +86,12 @@
 	  				margin-bottom: 36px;
 				}
 				&__right{
-					position: relative;
+					position: static;
 					&__cart{
 						display: flex;
 		  				align-items:center;
 		  				position: absolute;
-		  				top: 91px;
+		  				top: 16px;
 		  				right:36.5%;
 		  				transform: translateX(467%);
 		  				img{
@@ -112,8 +115,8 @@
 		  				display: flex;
 		  				align-items:center;
 		  				transform: translateX(-397%);
-		  				left: 99%;
-		  				top: 99px;
+		  				left: 103%;
+		  				top: 24px;
 
 		  				a{
 		  					font-family: Nunito_Light;
