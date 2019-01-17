@@ -1,0 +1,43 @@
+main{
+	.like{
+		padding-top: 5px;
+		margin-bottom: 37px;
+		ul{
+			display: flex;
+			justify-content:space-between;
+			li{
+				display: flex;
+				
+			}
+			border: none;
+			width: 311px;
+		}
+		&__num{
+			padding-left: 5px;
+			position: relative;
+			p{
+				position: absolute;
+				font-size: 10px;
+				top: 8px;
+				left: 15px;
+				font-weight: bold;
+			}
+			img{
+				width: 152%;
+				height: 100%;
+			}
+		}
+	}
+	.review{
+		h1{
+			font-family: PlayfairDisplaySC_Regular;
+			font-size: 24px;
+			font-weight: 500;
+		}
+	}
+	.new{
+		&__list{
+			border: none;
+		}
+	}
+}

@@ -1,4 +1,10 @@
 .wrapper{
+	.breadcrumb{
+		display: none;
+	}
+	.topbrand{
+		display: none;
+	}
 	.container-blog{
 		display: flex;
 		flex-direction: column;

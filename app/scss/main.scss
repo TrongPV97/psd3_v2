@@ -62,7 +62,9 @@
   'components/footer-link_pc',
   //blog
   'components/blog/blog-news_list',
-  'components/blog/blog-news_list_ipad';
+  'components/blog/blog-news_list_ipad',
+  //blog_post
+  'components/blog_post/blog-post-news_list';
   
 
 
@@ -72,7 +74,10 @@
   'page/theshop_ipad',
   'page/theshop_pc',
   'page/blog/blog',
-  'page/blog/blog_ipad';
+  'page/blog/blog_ipad',
+  'page/blog/blog_pc',
+  'page/blog_post/blog_post';
+  
 
 // 7. Themes
 /* @import
