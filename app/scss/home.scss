@@ -1,0 +1,37 @@
+@import 'mix'; 
+// 5. Components
+@import
+  'components/layout/menu_nav_mobile',
+  'components/home/slide_mobile', 
+  'components/home/new_list_mobile',
+  'components/home/popular_list_mobile',
+  'components/home/blog_list_mobile',
+  'components/home/topbrand_list_mobile',
+  'components/home/benefit_list_mobile',
+  'components/layout/footer-link_mobile',
+  'components/layout/newsletter_mobile',
+  //ipad
+  'components/layout/menu_nav_ipad',
+  'components/home/slide_ipad',
+  'components/home/new_list_ipad',
+  'components/home/popular_list_ipad',
+  'components/home/blog_list_ipad',
+   'components/home/topbrand_list_ipad',
+   'components/home/benefit_list_ipad',
+  'components/layout/footer-link_ipad',
+  'components/layout/newsletter_ipad', 
+  //pc
+  'components/layout/menu_nav_pc', 
+  'components/home/slide_pc',
+  'components/home/new_list_pc',
+  'components/home/popular_list_pc',
+  'components/home/blog_list_pc',
+  'components/home/topbrand_list_pc',
+  'components/home/benefit_list_pc',
+  'components/layout/newsletter_pc',
+  'components/layout/footer-link_pc'; 
+//page
+@import
+  'page/home/theshop_mobile',
+  'page/home/theshop_ipad',
+  'page/home/theshop_pc';

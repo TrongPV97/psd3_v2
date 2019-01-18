@@ -1,5 +1,5 @@
-
-@media #{$res_1024} {
+$res_760 : "only screen and (min-width: 760px) and (max-width: 1024px)";
+@media #{$res_760} {
 	.wrapper{
 		main{
 			.new{
@@ -20,7 +20,7 @@
 				&__title{
 					border-bottom: solid 1px #e4e2e1;
 					
-					height: 40px;
+					height: 83px;
 					margin-bottom: 30px;
 					h1{
 						font-family: PlayfairDisplaySC_Regular;
@@ -29,7 +29,7 @@
 						text-transform: uppercase;
 						text-align: center;
 						font-weight: 500;
-						top: 59%;
+						top: 16%;
 						left: 50%;
 						transform:  translateX(-50%);
 						background: #fff;
@@ -39,7 +39,7 @@
 				}
 			}
 			.popular{
-				width: 66%;
+				width: 56%;
 				float: left;
 				.container{
 					width: 100%;
@@ -49,7 +49,6 @@
 					position: relative;
 					height: 24px;
 					margin-bottom: 35px;
-
 					h1{
 						font-family: PlayfairDisplaySC_Regular;
 						font-size: 24px;
@@ -62,13 +61,15 @@
 						transform:  translateX(-30%);
 						background: #fff;
 						padding: 0 5px 0 5px;
+
+
 					}
 				}
 			}
 			.blog{
 				margin-bottom: 10px;
 				float: right;
-				width: 28%;
+				width: 38.5%;
 				margin-top: 12px;
 				.container{
 					width: 100%;
@@ -96,8 +97,6 @@
 			.topbrand{
 
 				&__title{
-					margin-bottom: 0px;
-					border-bottom: solid 1px #e4e2e1;
 					position: relative;
 					height: 24px;
 					margin-bottom: 35px;
@@ -116,9 +115,7 @@
 
 
 					}
-					border:none;
 				}
-
 				
 			}
 			.benefit{

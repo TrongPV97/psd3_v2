@@ -1,0 +1,11 @@
+@import 'mix';
+// 5. Components
+@import
+  //blog
+  'components/blog/blog-news_list',
+  'components/blog/blog-news_list_ipad';
+ //page
+@import
+  'page/blog/blog',
+  'page/blog/blog_ipad',
+  'page/blog/blog_pc';

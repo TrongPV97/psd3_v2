@@ -1,11 +1,11 @@
 
 	.new{
+		margin-bottom: 10px;
 		&__list{
 			display: flex;
 			justify-content: space-between;
 			padding-left: 35px;
-			padding-right: 34px;
-			margin-bottom: 10px;
+			padding-right: 34px;			
 			&__img{
 				width: 102px;
 			}

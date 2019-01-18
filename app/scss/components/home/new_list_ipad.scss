@@ -3,11 +3,11 @@
 		&__list{
 			&--fl{
 				display: flex;
+				margin-bottom: 10px;
 			}
 			display: flex;
 			flex-direction:column;
 			justify-content: space-between;
-			margin-bottom: 10px;
 			position: relative;
 			padding: 0px;
 			&__img{

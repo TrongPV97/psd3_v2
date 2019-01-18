@@ -1,4 +1,4 @@
-$res_760 : "only screen and (min-width: 760px) and (max-width: 1024px)";
+
 @media #{$res_760} {
 	.wrapper{
 		main{
@@ -7,10 +7,13 @@ $res_760 : "only screen and (min-width: 760px) and (max-width: 1024px)";
 				.container{
 				}
 				&__list{
-					margin-right: 9px;
+					padding: 0 4.5px 0 4.5px;
 					text-align: center;
 					&:last-child{
-						margin-right: 0px;
+						padding-right: 0px;
+					}
+					&:first-child{
+						padding-left: 0px;
 					}
 				}
 
