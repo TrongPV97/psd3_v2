@@ -1,0 +1,32 @@
+@media #{$res_1024} {
+	main{
+		.bd-t{
+			border: none;
+		}
+		.bd-b{
+			border-top: solid 1px #e4e2e1;
+			margin-bottom: 15px;
+		}
+		.log{
+			margin-bottom: 400px;
+			.container{
+				border: solid 1px #e4e2e1;
+				width: 670px;
+				margin-bottom: 60px;
+				
+			}
+			&__in{
+				flex-direction:row;
+				justify-content:space-between;
+				&__below{
+					a:last-child{
+						padding-right: 0px;
+					}
+				}
+				&__create{
+					order:2;
+				}
+			}
+		} 
+	}
+} 

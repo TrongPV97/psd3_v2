@@ -1199,6 +1199,102 @@ main .new__list {
   }
 }
 
+main .bd-t {
+  border-top: solid 1px #e4e2e1;
+  margin-bottom: 15px;
+}
+
+main .wish .container {
+  border: solid 1px #e4e2e1;
+  width: 311px;
+  margin-bottom: 60px;
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+  main .bd-t {
+    border-top: none;
+  }
+  main .bd-b {
+    border-top: solid 1px #e4e2e1;
+    margin-bottom: 15px;
+  }
+  main .wish {
+    margin-top: 40px;
+  }
+  main .wish .container {
+    width: 750px;
+  }
+  main .wish__title {
+    text-align: center;
+  }
+  main .wish__list {
+    display: flex;
+    flex-direction: column;
+  }
+  main .wish__list__name {
+    display: block;
+  }
+  main .wish__list__name ul {
+    display: flex;
+    padding: 20px 0;
+  }
+  main .wish__list__name ul li {
+    font-family: Nunito_Light;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  main .wish__list__product {
+    margin-left: 109px;
+  }
+  main .wish__list__price {
+    margin-left: 265px;
+  }
+  main .wish__list__q-ty {
+    margin-left: 60px;
+  }
+  main .wish__list__item h1 {
+    line-height: 2;
+  }
+  main .wish__list__item--ip {
+    display: block;
+  }
+  main .wish__list__item--mb {
+    display: none;
+  }
+  main .wish__list__item__add {
+    display: none;
+  }
+  main .wish__list__item__add--ip {
+    display: block;
+  }
+  main .wish__list__item__add--ip a {
+    font-family: Nunito_Light;
+    font-size: 10px;
+    background: #000;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    padding: 11px 30px;
+    text-decoration: none !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  main .bd-t {
+    border-top: none;
+  }
+  main .bd-b {
+    border-top: solid 1px #e4e2e1;
+    margin-bottom: 15px;
+  }
+  main .wish {
+    margin-top: 40px;
+  }
+  main .wish .container {
+    width: 960px;
+  }
+}
+
 .wrapper header .menu img {
   padding: 7px 18px 7px 0px;
   border-right: solid 1px #e4e2e1;
@@ -1587,142 +1683,194 @@ main .new__list {
   }
 }
 
-.news__list {
-  margin-top: 20px;
-  border-bottom: solid 3px;
+main .wish__list {
+  display: flex;
+  flex-direction: column;
 }
 
-.news__list h1 {
+main .wish__list__name {
+  display: none;
+}
+
+main .wish__list__item {
+  padding: 18px 21px;
+  background: #f7f7f7;
+  margin-bottom: 15px;
+}
+
+main .wish__list__item ul {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+main .wish__list__item h1 {
+  font-size: 10px;
+  font-family: 'Nunito_Light';
+  font-weight: bold;
+  line-height: 2.5;
+}
+
+main .wish__list__item a {
+  font-family: 'Arial';
+  font-size: 11px;
+  text-transform: none;
+  color: #000;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+main .wish__list__item--ip {
+  display: none;
+}
+
+main .wish__list__item__add {
+  margin: 25px 0 18px;
+  text-align: center;
+}
+
+main .wish__list__item__add a {
+  font-family: Nunito_Light;
+  font-size: 10px;
+  background: #000;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  padding: 11px 30px;
+  text-decoration: none !important;
+}
+
+main .wish__list__item__add--ip {
+  display: none;
+}
+
+main .wish__list__item:last-child {
+  margin-bottom: 0px;
+}
+
+main .wish__title {
+  padding: 14px 0 14px 0;
+  border-bottom: solid 1px #e4e2e1;
+}
+
+main .wish__title h1 {
+  padding-left: 15px;
   font-size: 24px;
   font-family: PlayfairDisplaySC_Regular;
   font-weight: 500;
 }
 
-.news__list h3 {
-  font-size: 11px;
-  text-transform: uppercase;
-  font-family: Nunito_Light;
-  margin-top: 20px;
-  margin-bottom: 15px;
-}
-
-.news__list p {
-  padding-top: 10px;
-  font-size: 14.5px;
-  font-family: Nunito_Light;
-  color: #aaaaaa;
-  padding-bottom: 25px;
-}
-
-.news__list--bn {
-  border: none;
-}
-
 @media only screen and (min-width: 760px) and (max-width: 1024px) {
-  .news__list {
-    margin-top: 20px;
-    border-bottom: solid 3px;
+  main .wish__title {
+    text-align: center;
   }
-  .news__list h1 {
-    font-size: 24px;
-    width: 535px;
-    font-family: PlayfairDisplaySC_Regular;
-    font-weight: 500;
+  main .wish__list {
+    display: flex;
+    flex-direction: column;
   }
-  .news__list h3 {
-    font-size: 11px;
+  main .wish__list__name {
+    display: block;
+  }
+  main .wish__list__name ul {
+    display: flex;
+    padding: 20px 0;
+  }
+  main .wish__list__name ul li {
+    font-family: Nunito_Light;
+    font-size: 12px;
     text-transform: uppercase;
+    font-weight: 600;
+  }
+  main .wish__list__product {
+    margin-left: 109px;
+  }
+  main .wish__list__price {
+    margin-left: 265px;
+  }
+  main .wish__list__q-ty {
+    margin-left: 60px;
+  }
+  main .wish__list__item h1 {
+    line-height: 2;
+  }
+  main .wish__list__item--ip {
+    display: block;
+  }
+  main .wish__list__item--mb {
+    display: none;
+  }
+  main .wish__list__item__add {
+    display: none;
+  }
+  main .wish__list__item__add--ip {
+    display: block;
+  }
+  main .wish__list__item__add--ip a {
     font-family: Nunito_Light;
-    margin-top: 20px;
-    margin-bottom: 15px;
+    font-size: 10px;
+    background: #000;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    padding: 11px 30px;
+    text-decoration: none !important;
   }
-  .news__list p {
-    padding-top: 10px;
-    font-size: 14.5px;
+}
+
+@media only screen and (min-width: 1024px) {
+  main .wish__title {
+    text-align: center;
+  }
+  main .wish__list {
+    display: flex;
+    flex-direction: column;
+  }
+  main .wish__list__name {
+    display: block;
+  }
+  main .wish__list__name ul {
+    display: flex;
+    padding: 20px 0;
+  }
+  main .wish__list__name ul li {
     font-family: Nunito_Light;
-    color: #aaaaaa;
-    padding-bottom: 25px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
   }
-  .news__list--bn {
-    border: none;
+  main .wish__list__product {
+    margin-left: 150px;
   }
-}
-
-.news__list {
-  border: none;
-}
-
-main .review__list {
-  margin-bottom: 10px;
-  margin-top: 17px;
-  background: #f7f7f7;
-  padding: 22px 5px 20px 32px;
-}
-
-main .review__list h1 {
-  font-size: 11px;
-  font-family: 'Arial';
-  font-weight: bold;
-  margin-bottom: 8px;
-}
-
-main .review__list p {
-  font-size: 12px;
-  font-family: 'Arial';
-  color: #aaaaaa;
-}
-
-main .review__list time {
-  font-size: 12px;
-  font-family: 'Arial';
-  color: #aaaaaa;
-}
-
-main .review__list a {
-  padding-right: 10px;
-}
-
-main .review__list:last-child {
-  margin-left: 9%;
-}
-
-main .write-review {
-  margin: 30px 0px 90px 0px;
-  border: solid 1px #e6e6e6;
-  padding: 25px 12px 60px 17px;
-}
-
-main .write-review h1 {
-  font-family: PlayfairDisplaySC_Regular;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-main .write-review h2 {
-  font-family: Nunito_Regular;
-  font-size: 10px;
-  text-transform: uppercase;
-  padding-top: 25px;
-}
-
-main .write-review input {
-  border: solid 1px #e6e6e6;
-  height: 33px;
-  width: 100%;
-}
-
-main .write-review textarea {
-  border: solid 1px #e6e6e6;
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-.wrapper .container-blog .news .write-review a {
-  font-family: Nunito_Regular;
-  font-size: 10px;
-  padding: 10px;
-  background: #000;
-  color: #fff;
-  display: block;
-  margin-bottom: 38px;
+  main .wish__list__price {
+    margin-left: 351px;
+  }
+  main .wish__list__q-ty {
+    margin-left: 100px;
+  }
+  main .wish__list__item h1 {
+    line-height: 2;
+  }
+  main .wish__list__item a {
+    display: block;
+    margin-top: 40px;
+  }
+  main .wish__list__item--ip {
+    display: block;
+  }
+  main .wish__list__item--mb {
+    display: none;
+  }
+  main .wish__list__item__add {
+    display: none;
+  }
+  main .wish__list__item__add--ip {
+    display: block;
+  }
+  main .wish__list__item__add--ip a {
+    font-family: Nunito_Light;
+    font-size: 10px;
+    background: #000;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    padding: 11px 30px;
+    text-decoration: none !important;
+  }
 }

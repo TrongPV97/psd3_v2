@@ -8,7 +8,10 @@
   'page/blog/blog_pc',
   'page/home/theshop_mobile',
   'page/home/theshop_ipad',
-  'page/home/theshop_pc';
+  'page/home/theshop_pc', 
+  'page/wish-list/wish-list_mobile',
+  'page/wish-list/wish-list_ipad',
+  'page/wish-list/wish-list_pc'; 
  //blog_post
   @import
 
@@ -30,10 +33,8 @@
 	'components/home/benefit_list_ipad',
 	'components/home/topbrand_list_pc',
 	'components/home/benefit_list_pc',
-	'components/blog/blog-news_list',
-	'components/blog/blog-news_list_ipad',
-	'components/blog_post/blog-post-news_list',
-	'components/blog_post/blog-post-review_list',
-	'components/blog_post/blog-post-write-review'; 
-
+	'components/wish-list/wish-list_mobile',
+	'components/wish-list/wish-list_ipad',
+	'components/wish-list/wish-list_pc'; 
+ 
 

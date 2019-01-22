@@ -1,0 +1,34 @@
+@media #{$res_760} {
+	main{
+		.bd-t{
+			border: none;
+		}
+		.bd-b{
+			border-top: solid 1px #e4e2e1;
+			margin-bottom: 15px;
+		}
+		.log{
+			margin-bottom: 400px;
+			.container{
+				border: solid 1px #e4e2e1;
+				width: 750px;
+				margin-bottom: 60px;
+				
+			}
+			&__in{
+				flex-direction:row;
+				justify-content:space-between;
+				&__below{
+					&__bot{
+						display: flex;
+						
+					}
+
+				}
+				&__create{
+					order:2;
+				}
+			}
+		} 
+	}
+} 

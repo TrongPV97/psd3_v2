@@ -11,6 +11,9 @@
 					flex-direction: column;
 				}
 				.connect{
+					h1{
+						display: none;  
+					}
 					padding-top: 15px;
 					padding-bottom: 15px;
 					border-bottom: solid 1px #e4e2e1;

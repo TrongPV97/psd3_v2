@@ -17,7 +17,7 @@ img {
 }
 
 .wrapper {
-  min-width: 320px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -59,6 +59,11 @@ li {
   src: url(../fonts/Playfair_DisplaySC/PlayfairDisplaySC-Bold.ttf);
 }
 
+@font-face {
+  font-family: Nunito_Regular;
+  src: url(../fonts/Nunito/Nunito-Regular.ttf);
+}
+
 /**
  * Basic typography style for copy text
  */
@@ -69,7 +74,7 @@ body {
 
 @media only screen and (min-width: 760px) and (max-width: 1024px) {
   .wrapper {
-    min-width: 760px;
+    width: 100%;
     margin: 0 auto;
   }
   .container {
@@ -88,7 +93,7 @@ body {
 
 @media only screen and (min-width: 1024px) {
   .wrapper {
-    min-width: 1024px;
+    width: 100%;
     margin: 0 auto;
   }
   .container {
@@ -302,6 +307,10 @@ $res_1200 : "only screen and (min-width: 1200px)"; */
   padding-top: 15px;
   padding-bottom: 15px;
   border-bottom: solid 1px #e4e2e1;
+}
+
+.wrapper footer .container .connect h1 {
+  display: none;
 }
 
 .wrapper footer .container .connect ul {
@@ -583,8 +592,19 @@ $res_1200 : "only screen and (min-width: 1200px)"; */
     padding-bottom: 18px;
   }
   .wrapper footer .container .connect {
+    display: flex;
     padding-top: 25px;
     border: none;
+  }
+  .wrapper footer .container .connect h1 {
+    padding-top: 6px;
+    display: block;
+    font-family: PlayfairDisplaySC_Regular;
+    font-size: 14px;
+    color: #eeeeee;
+    font-weight: 500;
+    padding-right: 8px;
+    padding-left: 6px;
   }
   .wrapper footer .container .connect ul {
     padding: 4px 9px 0 9px;

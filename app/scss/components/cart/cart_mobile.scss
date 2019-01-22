@@ -1,0 +1,75 @@
+main{
+	.wish{
+		&__list{
+			display: flex;
+			flex-direction:column;
+
+			&__name{
+				display: none;
+			}
+			&__item{
+				padding: 18px 21px;
+				background: #f7f7f7;
+				margin-bottom: 15px;
+				ul{
+					display: flex;
+					justify-content:space-between;
+					text-transform: uppercase;
+				}
+				h1{
+					font-size: 10px;
+					font-family: 'Nunito_Light';
+					font-weight: bold;
+					line-height: 2.5;
+				}
+				a{
+					font-family: 'Arial';
+					font-size: 11px;
+					text-transform: none;
+					color:#000;
+					text-decoration: underline;
+					font-weight: 500;
+				}
+				&--ip{
+					display: none;
+				}
+				&__info{
+					&--ip{
+						display: none;
+					} 
+					&__color{
+						display: flex;
+					}
+					&__qty{
+						display: flex;
+						input{
+							width: 47px;
+							text-align: center;
+							border: #e4e2e1;
+						}
+					}
+
+				}
+				
+				
+
+				
+			}
+			&__item:last-child{
+				margin-bottom: 0px;
+			}
+
+		}
+		&__title{
+
+			padding: 14px 0 14px 0;
+			border-bottom: solid 1px #e4e2e1;
+			h1{
+				padding-left: 15px;
+				font-size: 24px;
+				font-family: PlayfairDisplaySC_Regular;
+				font-weight: 500;
+			}
+		}
+	}
+}

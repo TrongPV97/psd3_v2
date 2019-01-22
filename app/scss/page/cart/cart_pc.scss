@@ -1,0 +1,19 @@
+@media #{$res_1024} {
+main{
+	.bd-t{
+		border-top:none;
+	}
+	.bd-b{
+		border-top: solid 1px #e4e2e1;
+		margin-bottom: 15px;
+	}
+	.wish{
+		margin-top: 40px;
+		.container{
+			width: 960px;			
+		}
+
+		
+	}
+}
+}

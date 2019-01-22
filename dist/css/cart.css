@@ -1199,6 +1199,33 @@ main .new__list {
   }
 }
 
+main .bd-t {
+  border-top: solid 1px #e4e2e1;
+  margin-bottom: 15px;
+}
+
+main .wish .container {
+  border: solid 1px #e4e2e1;
+  width: 311px;
+  margin-bottom: 60px;
+}
+
+@media only screen and (min-width: 1024px) {
+  main .bd-t {
+    border-top: none;
+  }
+  main .bd-b {
+    border-top: solid 1px #e4e2e1;
+    margin-bottom: 15px;
+  }
+  main .wish {
+    margin-top: 40px;
+  }
+  main .wish .container {
+    width: 960px;
+  }
+}
+
 .wrapper header .menu img {
   padding: 7px 18px 7px 0px;
   border-right: solid 1px #e4e2e1;
@@ -1587,142 +1614,77 @@ main .new__list {
   }
 }
 
-.news__list {
-  margin-top: 20px;
-  border-bottom: solid 3px;
+main .wish__list {
+  display: flex;
+  flex-direction: column;
 }
 
-.news__list h1 {
-  font-size: 24px;
-  font-family: PlayfairDisplaySC_Regular;
-  font-weight: 500;
+main .wish__list__name {
+  display: none;
 }
 
-.news__list h3 {
-  font-size: 11px;
-  text-transform: uppercase;
-  font-family: Nunito_Light;
-  margin-top: 20px;
+main .wish__list__item {
+  padding: 18px 21px;
+  background: #f7f7f7;
   margin-bottom: 15px;
 }
 
-.news__list p {
-  padding-top: 10px;
-  font-size: 14.5px;
-  font-family: Nunito_Light;
-  color: #aaaaaa;
-  padding-bottom: 25px;
+main .wish__list__item ul {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
 }
 
-.news__list--bn {
-  border: none;
-}
-
-@media only screen and (min-width: 760px) and (max-width: 1024px) {
-  .news__list {
-    margin-top: 20px;
-    border-bottom: solid 3px;
-  }
-  .news__list h1 {
-    font-size: 24px;
-    width: 535px;
-    font-family: PlayfairDisplaySC_Regular;
-    font-weight: 500;
-  }
-  .news__list h3 {
-    font-size: 11px;
-    text-transform: uppercase;
-    font-family: Nunito_Light;
-    margin-top: 20px;
-    margin-bottom: 15px;
-  }
-  .news__list p {
-    padding-top: 10px;
-    font-size: 14.5px;
-    font-family: Nunito_Light;
-    color: #aaaaaa;
-    padding-bottom: 25px;
-  }
-  .news__list--bn {
-    border: none;
-  }
-}
-
-.news__list {
-  border: none;
-}
-
-main .review__list {
-  margin-bottom: 10px;
-  margin-top: 17px;
-  background: #f7f7f7;
-  padding: 22px 5px 20px 32px;
-}
-
-main .review__list h1 {
-  font-size: 11px;
-  font-family: 'Arial';
+main .wish__list__item h1 {
+  font-size: 10px;
+  font-family: 'Nunito_Light';
   font-weight: bold;
-  margin-bottom: 8px;
+  line-height: 2.5;
 }
 
-main .review__list p {
-  font-size: 12px;
+main .wish__list__item a {
   font-family: 'Arial';
-  color: #aaaaaa;
-}
-
-main .review__list time {
-  font-size: 12px;
-  font-family: 'Arial';
-  color: #aaaaaa;
-}
-
-main .review__list a {
-  padding-right: 10px;
-}
-
-main .review__list:last-child {
-  margin-left: 9%;
-}
-
-main .write-review {
-  margin: 30px 0px 90px 0px;
-  border: solid 1px #e6e6e6;
-  padding: 25px 12px 60px 17px;
-}
-
-main .write-review h1 {
-  font-family: PlayfairDisplaySC_Regular;
-  font-size: 18px;
+  font-size: 11px;
+  text-transform: none;
+  color: #000;
+  text-decoration: underline;
   font-weight: 500;
 }
 
-main .write-review h2 {
-  font-family: Nunito_Regular;
-  font-size: 10px;
-  text-transform: uppercase;
-  padding-top: 25px;
+main .wish__list__item--ip {
+  display: none;
 }
 
-main .write-review input {
-  border: solid 1px #e6e6e6;
-  height: 33px;
-  width: 100%;
+main .wish__list__item__info--ip {
+  display: none;
 }
 
-main .write-review textarea {
-  border: solid 1px #e6e6e6;
-  width: 100%;
-  margin-bottom: 10px;
+main .wish__list__item__info__color {
+  display: flex;
 }
 
-.wrapper .container-blog .news .write-review a {
-  font-family: Nunito_Regular;
-  font-size: 10px;
-  padding: 10px;
-  background: #000;
-  color: #fff;
-  display: block;
-  margin-bottom: 38px;
+main .wish__list__item__info__qty {
+  display: flex;
+}
+
+main .wish__list__item__info__qty input {
+  width: 47px;
+  text-align: center;
+  border: #e4e2e1;
+}
+
+main .wish__list__item:last-child {
+  margin-bottom: 0px;
+}
+
+main .wish__title {
+  padding: 14px 0 14px 0;
+  border-bottom: solid 1px #e4e2e1;
+}
+
+main .wish__title h1 {
+  padding-left: 15px;
+  font-size: 24px;
+  font-family: PlayfairDisplaySC_Regular;
+  font-weight: 500;
 }
