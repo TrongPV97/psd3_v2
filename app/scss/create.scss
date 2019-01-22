@@ -8,7 +8,10 @@
   'page/blog/blog_pc',
   'page/home/theshop_mobile',
   'page/home/theshop_ipad',
-  'page/home/theshop_pc';
+  'page/home/theshop_pc',
+  'page/create/create_mb',
+  'page/create/create_ip',
+  'page/create/create_pc';
  //blog_post
   @import
 
@@ -31,6 +34,10 @@
 	'components/home/topbrand_list_pc',
 	'components/home/benefit_list_pc',
 	'components/blog/blog-news_list',
-	'components/blog/blog-news_list_ipad'; 
+	'components/blog/blog-news_list_ipad',
+	'components/create/create_personal_mb',
+	'components/create/create_personal_ip',
+	'components/create/create_personal_pc';
 
 
+ 

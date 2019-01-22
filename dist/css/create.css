@@ -1199,99 +1199,179 @@ main .new__list {
   }
 }
 
-main .bd-t {
+.bd-t {
   border-top: solid 1px #e4e2e1;
   margin-bottom: 15px;
 }
 
-main .wish .container {
+.bd-b {
+  border-top: solid 1px #e4e2e1;
+  margin-bottom: 15px;
+}
+
+.create {
   border: solid 1px #e4e2e1;
-  width: 311px;
-  margin-bottom: 60px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.create__title {
+  text-align: center;
+  border-bottom: solid 1px #e4e2e1;
+  position: relative;
+}
+
+.create__title h1 {
+  font-size: 24px;
+  font-family: PlayfairDisplaySC_Regular;
+  font-weight: 500;
+  padding: 16px;
+  margin-top: 0px !important;
+}
+
+.create__title p {
+  font-family: 'Arial';
+  font-size: 11px;
+  position: absolute;
+  top: 70px;
+  right: 22px;
+}
+
+.create__account {
+  padding: 0px 22px 22px 22px;
+}
+
+.create__create {
+  text-align: center;
+}
+
+.create__create a:first-child {
+  text-transform: uppercase;
+  margin-top: 80px;
+  display: block;
+  background: #000;
+  font-size: 10px;
+  font-family: Nunito_Light;
+  padding: 11px;
+  color: #fff;
+}
+
+.create__create a:last-child {
+  text-decoration: underline;
+  margin-top: 20px;
+  display: block;
+  font-size: 11px;
+  font-family: 'Arial';
+  color: #000;
 }
 
 @media only screen and (min-width: 760px) and (max-width: 1024px) {
-  main .bd-t {
-    border-top: none;
+  .bd-t {
+    border: none;
   }
-  main .bd-b {
+  .bd-b {
     border-top: solid 1px #e4e2e1;
     margin-bottom: 15px;
   }
-  main .wish {
-    margin-top: 40px;
+  .create {
+    position: relative;
+    border: solid 1px #e4e2e1;
+    width: 676px;
+    margin: 0 auto;
+    margin-top: 25px;
   }
-  main .wish .container {
-    width: 750px;
-  }
-  main .wish__title {
+  .create__title {
     text-align: center;
+    border-bottom: solid 1px #e4e2e1;
+    position: relative;
   }
-  main .wish__list {
+  .create__title p {
+    top: 18px;
+  }
+  .create__account {
+    padding: 0px 22px 22px 22px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
   }
-  main .wish__list__name {
-    display: block;
+  .create__create {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 708px;
+    transform: translateX(-50%);
   }
-  main .wish__list__name ul {
-    display: flex;
-    padding: 20px 0;
-  }
-  main .wish__list__name ul li {
-    font-family: Nunito_Light;
-    font-size: 12px;
+  .create__create a:first-child {
     text-transform: uppercase;
-    font-weight: 600;
-  }
-  main .wish__list__product {
-    margin-left: 109px;
-  }
-  main .wish__list__price {
-    margin-left: 265px;
-  }
-  main .wish__list__q-ty {
-    margin-left: 60px;
-  }
-  main .wish__list__item h1 {
-    line-height: 2;
-  }
-  main .wish__list__item--ip {
+    margin-top: 80px;
     display: block;
-  }
-  main .wish__list__item--mb {
-    display: none;
-  }
-  main .wish__list__item__add {
-    display: none;
-  }
-  main .wish__list__item__add--ip {
-    display: block;
-  }
-  main .wish__list__item__add--ip a {
-    font-family: Nunito_Light;
-    font-size: 10px;
     background: #000;
-    color: #fff !important;
-    text-transform: uppercase !important;
-    padding: 11px 30px;
-    text-decoration: none !important;
+    font-size: 10px;
+    font-family: Nunito_Light;
+    padding: 11px;
+    color: #fff;
+  }
+  .create__create a:last-child {
+    text-decoration: underline;
+    margin-top: 20px;
+    display: block;
+    font-size: 11px;
+    font-family: 'Arial';
+    color: #000;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  main .bd-t {
-    border-top: none;
+  .bd-t {
+    border: none;
   }
-  main .bd-b {
+  .bd-b {
     border-top: solid 1px #e4e2e1;
     margin-bottom: 15px;
   }
-  main .wish {
-    margin-top: 40px;
+  .create {
+    position: relative;
+    border: solid 1px #e4e2e1;
+    width: 676px;
+    margin: 0 auto;
+    margin-top: 25px;
   }
-  main .wish .container {
-    width: 960px;
+  .create__title {
+    text-align: center;
+    border-bottom: solid 1px #e4e2e1;
+    position: relative;
+  }
+  .create__title p {
+    top: 18px;
+  }
+  .create__account {
+    padding: 0px 22px 22px 22px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .create__create {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 708px;
+    transform: translateX(-50%);
+  }
+  .create__create a:first-child {
+    text-transform: uppercase;
+    margin-top: 80px;
+    display: block;
+    background: #000;
+    font-size: 10px;
+    font-family: Nunito_Light;
+    padding: 11px;
+    color: #fff;
+  }
+  .create__create a:last-child {
+    text-decoration: underline;
+    margin-top: 20px;
+    display: block;
+    font-size: 11px;
+    font-family: 'Arial';
+    color: #000;
   }
 }
 
@@ -1884,194 +1964,195 @@ main .wish .container {
   }
 }
 
-main .wish__list {
-  display: flex;
-  flex-direction: column;
+.news__list {
+  margin-top: 20px;
+  border-bottom: solid 3px;
 }
 
-main .wish__list__name {
-  display: none;
-}
-
-main .wish__list__item {
-  padding: 18px 21px;
-  background: #f7f7f7;
-  margin-bottom: 15px;
-}
-
-main .wish__list__item ul {
-  display: flex;
-  justify-content: space-between;
-  text-transform: uppercase;
-}
-
-main .wish__list__item h1 {
-  font-size: 10px;
-  font-family: 'Nunito_Light';
-  font-weight: bold;
-  line-height: 2.5;
-}
-
-main .wish__list__item a {
-  font-family: 'Arial';
-  font-size: 11px;
-  text-transform: none;
-  color: #000;
-  text-decoration: underline;
-  font-weight: 500;
-}
-
-main .wish__list__item--ip {
-  display: none;
-}
-
-main .wish__list__item__add {
-  margin: 25px 0 18px;
-  text-align: center;
-}
-
-main .wish__list__item__add a {
-  font-family: Nunito_Light;
-  font-size: 10px;
-  background: #000;
-  color: #fff !important;
-  text-transform: uppercase !important;
-  padding: 11px 30px;
-  text-decoration: none !important;
-}
-
-main .wish__list__item__add--ip {
-  display: none;
-}
-
-main .wish__list__item:last-child {
-  margin-bottom: 0px;
-}
-
-main .wish__title {
-  padding: 14px 0 14px 0;
-  border-bottom: solid 1px #e4e2e1;
-}
-
-main .wish__title h1 {
-  padding-left: 15px;
+.news__list h1 {
   font-size: 24px;
   font-family: PlayfairDisplaySC_Regular;
   font-weight: 500;
 }
 
+.news__list h3 {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-family: Nunito_Light;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.news__list p {
+  padding-top: 10px;
+  font-size: 14.5px;
+  font-family: Nunito_Light;
+  color: #aaaaaa;
+  padding-bottom: 25px;
+}
+
+.news__list--bn {
+  border: none;
+}
+
 @media only screen and (min-width: 760px) and (max-width: 1024px) {
-  main .wish__title {
-    text-align: center;
+  .news__list {
+    margin-top: 20px;
+    border-bottom: solid 3px;
   }
-  main .wish__list {
-    display: flex;
-    flex-direction: column;
+  .news__list h1 {
+    font-size: 24px;
+    width: 535px;
+    font-family: PlayfairDisplaySC_Regular;
+    font-weight: 500;
   }
-  main .wish__list__name {
-    display: block;
-  }
-  main .wish__list__name ul {
-    display: flex;
-    padding: 20px 0;
-  }
-  main .wish__list__name ul li {
-    font-family: Nunito_Light;
-    font-size: 12px;
+  .news__list h3 {
+    font-size: 11px;
     text-transform: uppercase;
-    font-weight: 600;
-  }
-  main .wish__list__product {
-    margin-left: 109px;
-  }
-  main .wish__list__price {
-    margin-left: 265px;
-  }
-  main .wish__list__q-ty {
-    margin-left: 60px;
-  }
-  main .wish__list__item h1 {
-    line-height: 2;
-  }
-  main .wish__list__item--ip {
-    display: block;
-  }
-  main .wish__list__item--mb {
-    display: none;
-  }
-  main .wish__list__item__add {
-    display: none;
-  }
-  main .wish__list__item__add--ip {
-    display: block;
-  }
-  main .wish__list__item__add--ip a {
     font-family: Nunito_Light;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .news__list p {
+    padding-top: 10px;
+    font-size: 14.5px;
+    font-family: Nunito_Light;
+    color: #aaaaaa;
+    padding-bottom: 25px;
+  }
+  .news__list--bn {
+    border: none;
+  }
+}
+
+.create {
+  position: relative;
+  margin-bottom: 36px;
+}
+
+.create h1 {
+  font-family: Nunito_Light;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.create h2 {
+  font-family: Nunito_Light;
+  font-size: 10px;
+  margin-top: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.create input {
+  width: 100%;
+  height: 29px;
+  border: solid 1px #e4e2e1;
+}
+
+.create select {
+  width: 100%;
+  height: 29px;
+  border: solid 1px #e4e2e1;
+}
+
+.create__personal__check {
+  position: absolute;
+  top: 1080px;
+  display: flex;
+  align-items: center;
+}
+
+.create__personal__check input {
+  width: 7%;
+  margin-right: 15px;
+}
+
+.create__personal__check h1 {
+  font-family: Nunito_Regular;
+  font-size: 10px;
+  margin-top: 0px;
+  width: 240px;
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+  .create {
+    padding-bottom: 115px;
+    margin-bottom: 71px;
+  }
+  .create input {
+    width: 100%;
+    height: 29px;
+    border: solid 1px #e4e2e1;
+  }
+  .create select {
+    width: 100%;
+    height: 29px;
+    border: solid 1px #e4e2e1;
+  }
+  .create__personal {
+    flex: 1;
+  }
+  .create__personal__check {
+    position: absolute;
+    top: 408px;
+    display: flex;
+    align-items: center;
+  }
+  .create__personal__check input {
+    width: 7%;
+    margin-right: 15px;
+  }
+  .create__personal__check h1 {
+    font-family: Nunito_Regular;
     font-size: 10px;
-    background: #000;
-    color: #fff !important;
-    text-transform: uppercase !important;
-    padding: 11px 30px;
-    text-decoration: none !important;
+    margin-top: 0px;
+    width: 240px;
+  }
+  .create__address {
+    padding-left: 113px;
+    flex: 1;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  main .wish__title {
-    text-align: center;
+  .create {
+    padding-bottom: 115px;
+    margin-bottom: 106px;
   }
-  main .wish__list {
+  .create input {
+    width: 100%;
+    height: 29px;
+    border: solid 1px #e4e2e1;
+  }
+  .create select {
+    width: 100%;
+    height: 29px;
+    border: solid 1px #e4e2e1;
+  }
+  .create__personal {
+    flex: 1;
+  }
+  .create__personal__check {
+    position: absolute;
+    top: 408px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
   }
-  main .wish__list__name {
-    display: block;
+  .create__personal__check input {
+    width: 7%;
+    margin-right: 15px;
   }
-  main .wish__list__name ul {
-    display: flex;
-    padding: 20px 0;
-  }
-  main .wish__list__name ul li {
-    font-family: Nunito_Light;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 600;
-  }
-  main .wish__list__product {
-    margin-left: 150px;
-  }
-  main .wish__list__price {
-    margin-left: 351px;
-  }
-  main .wish__list__q-ty {
-    margin-left: 100px;
-  }
-  main .wish__list__item h1 {
-    line-height: 2;
-  }
-  main .wish__list__item a {
-    display: block;
-    margin-top: 40px;
-  }
-  main .wish__list__item--ip {
-    display: block;
-  }
-  main .wish__list__item--mb {
-    display: none;
-  }
-  main .wish__list__item__add {
-    display: none;
-  }
-  main .wish__list__item__add--ip {
-    display: block;
-  }
-  main .wish__list__item__add--ip a {
-    font-family: Nunito_Light;
+  .create__personal__check h1 {
+    font-family: Nunito_Regular;
     font-size: 10px;
-    background: #000;
-    color: #fff !important;
-    text-transform: uppercase !important;
-    padding: 11px 30px;
-    text-decoration: none !important;
+    margin-top: 0px;
+    width: 240px;
+  }
+  .create__address {
+    padding-left: 113px;
+    flex: 1;
   }
 }

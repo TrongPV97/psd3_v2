@@ -1366,8 +1366,78 @@ main .log__in__create {
   width: 9%;
 }
 
-.wrapper header .menu nav {
+.wrapper header .menu .menu-pc {
   display: none;
+}
+
+.wrapper header .slidebar-wrapper {
+  position: fixed;
+  z-index: 50;
+  overflow-x: hidden;
+  height: 1000%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.wrapper header .slide-container {
+  width: 45%;
+  height: 100%;
+  background: #036f66;
+  overflow-x: hidden;
+}
+
+.wrapper header .menu-pc {
+  display: none;
+}
+
+.wrapper header .slidebar__info img {
+  border: solid 2px #fff;
+  width: 20%;
+  border-radius: 50%;
+  padding: 0;
+  margin: 20px 30px;
+}
+
+.wrapper header .slidebar__menu {
+  background: #fff;
+  height: 100%;
+}
+
+.wrapper header .slidebar__menu nav {
+  padding-top: 30px;
+}
+
+.wrapper header .slidebar__menu nav ul li {
+  padding-left: 13%;
+}
+
+.wrapper header .slidebar__menu nav ul li a {
+  color: #000;
+  font-family: PlayfairDisplaySC_Regular;
+  font-weight: 500;
+  line-height: 2;
+  color: #9a9a9a;
+  font-size: 15px;
+}
+
+.wrapper header .slidebar__menu nav ul li:active {
+  background: #f74747;
+}
+
+.wrapper header .slidebar__menu nav ul li:active a {
+  color: #fff;
+}
+
+.wrapper header .slide-bg {
+  background: #036f66;
+  position: fixed;
+  top: 0;
+  opacity: 0.7;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 
 .footer-top--mb ul {
@@ -1427,8 +1497,78 @@ main .log__in__create {
   width: 9%;
 }
 
-.wrapper header .menu nav {
+.wrapper header .menu .menu-pc {
   display: none;
+}
+
+.wrapper header .slidebar-wrapper {
+  position: fixed;
+  z-index: 50;
+  overflow-x: hidden;
+  height: 1000%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.wrapper header .slide-container {
+  width: 45%;
+  height: 100%;
+  background: #036f66;
+  overflow-x: hidden;
+}
+
+.wrapper header .menu-pc {
+  display: none;
+}
+
+.wrapper header .slidebar__info img {
+  border: solid 2px #fff;
+  width: 20%;
+  border-radius: 50%;
+  padding: 0;
+  margin: 20px 30px;
+}
+
+.wrapper header .slidebar__menu {
+  background: #fff;
+  height: 100%;
+}
+
+.wrapper header .slidebar__menu nav {
+  padding-top: 30px;
+}
+
+.wrapper header .slidebar__menu nav ul li {
+  padding-left: 13%;
+}
+
+.wrapper header .slidebar__menu nav ul li a {
+  color: #000;
+  font-family: PlayfairDisplaySC_Regular;
+  font-weight: 500;
+  line-height: 2;
+  color: #9a9a9a;
+  font-size: 15px;
+}
+
+.wrapper header .slidebar__menu nav ul li:active {
+  background: #f74747;
+}
+
+.wrapper header .slidebar__menu nav ul li:active a {
+  color: #fff;
+}
+
+.wrapper header .slide-bg {
+  background: #036f66;
+  position: fixed;
+  top: 0;
+  opacity: 0.7;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 
 .footer-top--mb ul {
@@ -1491,8 +1631,63 @@ main .log__in__create {
     border-right: solid 1px #e4e2e1;
     width: 5%;
   }
-  .wrapper header .menu nav {
+  .wrapper header .menu .slidebar-wrapper {
+    position: fixed;
+    z-index: 50;
+    overflow-x: hidden;
+    height: 1000%;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+  .wrapper header .menu .slide-container {
+    width: 30%;
+    height: 100%;
+    background: #036f66;
+    overflow-x: hidden;
+  }
+  .wrapper header .menu .menu-pc {
     display: none;
+  }
+  .wrapper header .menu .slidebar__info img {
+    border: solid 2px #fff;
+    width: 20%;
+    border-radius: 50%;
+    padding: 0;
+    margin: 20px 30px;
+  }
+  .wrapper header .menu .slidebar__menu {
+    background: #fff;
+    height: 100%;
+  }
+  .wrapper header .menu .slidebar__menu nav {
+    padding-top: 30px;
+  }
+  .wrapper header .menu .slidebar__menu nav ul li {
+    padding-left: 13%;
+  }
+  .wrapper header .menu .slidebar__menu nav ul li a {
+    color: #000;
+    font-family: PlayfairDisplaySC_Regular;
+    font-weight: 500;
+    line-height: 2;
+    color: #9a9a9a;
+  }
+  .wrapper header .menu .slidebar__menu nav ul li:active {
+    background: #f74747;
+  }
+  .wrapper header .menu .slidebar__menu nav ul li:active a {
+    color: #fff;
+  }
+  .wrapper header .menu .slide-bg {
+    background: #036f66;
+    position: fixed;
+    top: 0;
+    opacity: 0.7;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
   }
 }
 
@@ -1553,6 +1748,12 @@ main .log__in__create {
     font-size: 13px;
     color: #000000;
     text-transform: uppercase;
+  }
+  .wrapper header .menu .slidebar-wrapper {
+    display: none;
+  }
+  .wrapper header .menu .slide-bg {
+    display: none;
   }
 }
 
