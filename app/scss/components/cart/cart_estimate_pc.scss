@@ -1,0 +1,9 @@
+@media #{$res_1024} {
+	.cart__check{
+		&__estimate{
+			margin-right: 19px;
+			height: 196px;
+			width: 325px;
+		}
+	}
+}

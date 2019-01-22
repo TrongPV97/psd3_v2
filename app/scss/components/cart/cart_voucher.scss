@@ -1,0 +1,26 @@
+.cart__check{
+	&__voucher{
+		margin-top: 10px;
+		border: solid 1px #e4e2e1;
+		padding: 19px 17px;
+		position: relative;
+		h1{
+			font-size: 12px;
+			font-family: Nunito_Light;
+			text-transform: uppercase;
+		}
+		input{
+			margin-top: 20px;
+			height: 30px;
+			width: 100%;
+			border: solid 1px #e4e2e1;
+		}
+		img{
+			position: absolute;
+			width: 10px;
+			height: 20px;
+			top: 61px;
+    		right: 22px;
+		}
+	}
+}

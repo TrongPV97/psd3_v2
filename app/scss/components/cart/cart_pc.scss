@@ -1,1 +1,136 @@
- 
+@media #{$res_1024} {
+main{
+	.wish{
+		&__list{
+			display: flex;
+			flex-direction:column;
+			&__product{
+				margin-right: 414px;
+			}
+			&__price{
+				margin-right: 98px;
+			}
+			&__q-ty{
+				margin-right: 171px;
+			}
+			&__name{
+				display: block;
+				padding: 20px 25px;
+				ul{
+					display: flex;
+					li{
+						font-size: 14px;
+						font-family:  'Nunito_Light';
+						text-transform: uppercase;
+						font-weight: bold;
+					}
+
+				}
+			}
+			&__item{
+				padding: 18px 21px;
+				background: #f7f7f7;
+				margin-bottom: 15px;
+				ul{
+					display: flex;
+					justify-content:space-between;
+					text-transform: uppercase;
+				}
+				h1{
+					font-size: 10px;
+					font-family: 'Nunito_Light';
+					font-weight: bold;
+					line-height: 2.5;
+				}
+				&__x{
+					margin:7px 0 0 -80px;
+				}
+				a{
+					font-family: 'Arial';
+					font-size: 11px;
+					text-transform: none;
+					color:#000;
+					text-decoration: underline;
+					font-weight: 500;
+				}
+				&--ip--pt{
+					display: block;
+					margin-top: -5px;
+					input{
+						width: 47px;
+						text-align: center;
+						border:solid 1px #e4e2e1;
+						margin-right: 10px;
+						padding: 10px;
+					}
+				}
+				&--ip{ 
+					display: block;
+				}
+				&__tg{ 
+					display: flex;
+					flex-direction:column;
+					justify-content:space-between;
+					align-items:center;
+					a{
+						text-decoration: none;
+						color: #aaaaaa;
+						font-size: 14px;
+					}
+
+				}
+				&__up{
+					a{
+						font-size: 11px;
+						font-family: 'Arial';
+						padding-left: 35px;
+					}
+				}
+				&--mb{
+					display: none;
+				}
+
+				&__info{
+					display: none;
+					&--ip{
+						display: block;
+						margin-left: -40px;
+
+					} 
+					&__color{
+						display: flex;
+					}
+					&__name{
+						width: 100px;
+						line-height: 1.5 !important;
+
+					}
+
+
+					
+
+				}
+				
+				
+
+				
+			}
+			&__item:last-child{
+				margin-bottom: 0px;
+			}
+
+		}
+		&__title{
+
+			padding: 14px 0 14px 0;
+			border-bottom: solid 1px #e4e2e1;
+			h1{
+				padding-left: 15px;
+				font-size: 24px;
+				font-family: PlayfairDisplaySC_Regular;
+				font-weight: 500; 
+			}
+		}
+	}
+}
+} 

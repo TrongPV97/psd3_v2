@@ -100,7 +100,7 @@
 							<ul>
 								<li class="wish__list__product" >product</li>
 								<li class="wish__list__price">price</li>
-								<li class="wish__list__q-ty">q-ty</li>
+								<li class="wish__list__q-ty">quantity</li>
 								<li class="wish__list__amount">amount</li>
 							</ul>
 						</div>
@@ -111,7 +111,7 @@
 								<li><img src="images/wish-a1.png" alt=""></li>
 								<li>
 									<div class="wish__list__item__info--ip">
-										<h1>detailed swing dress</h1>
+										<h1 >detailed swing dress</h1>
 										<h1>color: blue</h1>
 										<h1>size: 12</h1>
 										<h1 class="wish__list__item--mb" >$275.00</h1>
@@ -120,33 +120,35 @@
 									</div>
 								</li>
 								<li>
-									<div class="wish__list__item__info--mb">
-										<h1>detailed swing dress</h1>
+									<div class="wish__list__item__info">
+										<h1 class="wish__list__item__info__name">detailed swing dress</h1>
 										<div class="wish__list__item__info__color">
 											<h1>color: blue</h1>
 											<h1>size: 12</h1>
 										</div>
 										<div class="wish__list__item__info__qty">
-											<h1>quy:</h1>
+											<h1 style="margin-right: 8px; ">color:</h1>
 											<input type="text" placeholder="1" >
-											<img src="images/update.png" alt="">
+											<img src="images/update.png" alt="" >
 											<h1>$275.00</h1>
 										</div>
 										<a href="">Edit Item</a>
 									</div>
 								</li>
-								<li><img src="images/x.png" alt=""></li>
-								
+								<li class="wish__list__item__x"><img style=" display: block;" src="images/x.png" alt=""></li>
 								<li class="wish__list__item--ip">
+									<h1>$275.00</h1>
+								</li>
+								<li class="wish__list__item--ip--pt">
 									<ul>
 										<li>
-											<h1>1</h1>
+											<input type="text" placeholder="1">
 										</li>
-										<li>
+										<li class="wish__list__item__tg">
 											<a href="">+</a>
 											<a href="">-</a>
 										</li>
-										<li>
+										<li class="wish__list__item__up">
 											<a href="">Update</a>
 										</li>
 									</ul>
@@ -162,7 +164,7 @@
 								<li><img src="images/wish-a2.png" alt=""></li>
 								<li>
 									<div class="wish__list__item__info--ip">
-										<h1>detailed swing dress</h1>
+										<h1 >detailed swing dress</h1>
 										<h1>color: blue</h1>
 										<h1>size: 12</h1>
 										<h1 class="wish__list__item--mb" >$275.00</h1>
@@ -171,14 +173,14 @@
 									</div>
 								</li>
 								<li>
-									<div class="wish__list__item__info--mb">
-										<h1>detailed swing dress</h1>
+									<div class="wish__list__item__info">
+										<h1 class="wish__list__item__info__name">detailed swing dress</h1>
 										<div class="wish__list__item__info__color">
 											<h1>color: blue</h1>
 											<h1>size: 12</h1>
 										</div>
 										<div class="wish__list__item__info__qty">
-											<h1>color:</h1>
+											<h1 style="margin-right: 8px;">color:</h1>
 											<input type="text" placeholder="1" >
 											<img src="images/update.png" alt="">
 											<h1>$275.00</h1>
@@ -186,18 +188,20 @@
 										<a href="">Edit Item</a>
 									</div>
 								</li>
-								<li><img src="images/x.png" alt=""></li>
-								
+								<li class="wish__list__item__x"><img  style=" display: block;" src="images/x.png" alt=""></li>
 								<li class="wish__list__item--ip">
+									<h1>$275.00</h1>
+								</li>
+								<li class="wish__list__item--ip--pt">
 									<ul>
 										<li>
-											<h1>1</h1>
+											<input type="text" placeholder="1">
 										</li>
-										<li>
+										<li class="wish__list__item__tg">
 											<a href="">+</a>
 											<a href="">-</a>
 										</li>
-										<li>
+										<li class="wish__list__item__up">
 											<a href="">Update</a>
 										</li>
 									</ul>
@@ -207,6 +211,60 @@
 								</li>
 							</ul>							
 						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cart__check container">
+				<div class="cart__check__left">
+					<div class="cart__check__estimate">
+						<h1>estimate Delivery</h1>
+						<p>Enter your destination to get a delivery estimate</p>
+						<select>
+							<option>united states</option>
+						</select>
+						<select>
+							<option>select region, state or province</option>
+						</select>
+						<div class="cart__check__estimate__bot">
+							<input type="text" placeholder="Postcode/Zip">
+							<a href="">get a quote</a>
+						</div>
+					</div>
+					<div class="cart__check__voucher">
+						<h1>redeem discount voucher?</h1>
+						<input type="text">
+						<img src="images/nl.png" alt="">
+					</div>
+					<div class="cart__check__help">
+						<a href="">Need Help?</a>
+						<p>Call our customer care team on</p>
+						
+						<p>(08) 082340481   /   Customer Service</p>
+					</div>
+				</div>
+				<div class="cart__check__right">
+					<div class="cart__check__right__top">
+						<div class="cart__check__subtotal">
+							<h1>subtotal</h1>
+							<h1>$825.000</h1>
+						</div>
+						<div class="cart__check__delivery">
+							<h1>delivery</h1>
+							<h1>$35.000</h1>
+						</div>
+						<div class="cart__check__right__voucher">
+							<h1>gift voucher</h1>
+							<h1>$5.000</h1>
+						</div>
+					</div>
+					
+					<div class="cart__check__total">
+						<h1>total<br>including tax</h1>
+						<h1>$855.00</h1>
+					</div>
+					<div class="cart__check__check">
+						<a href="">checkout</a>
+						<a href="">continue shopping</a>
 					</div>
 				</div>
 			</div>

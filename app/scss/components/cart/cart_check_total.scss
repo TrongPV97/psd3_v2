@@ -1,0 +1,69 @@
+.cart__check{
+	
+	&__right{
+		&__top{
+			padding: 19px 17px;
+		}
+	}
+	&__subtotal{
+		display: flex;
+		justify-content:space-between;
+		h1{
+			font-size: 12px;
+			line-height: 2;
+			font-family: Nunito_Light;
+			text-transform: uppercase;
+			
+		}
+	}
+	&__delivery{
+		@extend .cart__check__subtotal;
+	}
+	&__right__voucher{
+		@extend .cart__check__subtotal;
+	}
+	&__total{
+		border-top: solid 1px #e4e2e1;
+		display: flex;
+		align-items:center;
+		padding: 18px 17px;
+		margin-top: 2px;
+		justify-content:space-between;
+		h1{
+			font-size: 13px;
+			line-height: 1.2;
+			font-family: Nunito_Light;
+			text-transform: uppercase;
+			font-weight: bold;
+
+			
+		}
+	}
+	&__check{
+		margin: 35px 0 86px 0;
+
+		@extend .cart__check__subtotal;
+		a{
+			font-size: 10px;
+			font-family: Nunito_Light;
+			text-transform: uppercase;
+			padding: 11px 19px;
+			text-transform: uppercase;
+			border: solid 1px #e4e2e1;
+			color: #000;
+			font-weight: 600;
+			order:2;
+		}
+		a:first-child{
+			font-size: 10px;
+			font-family: Nunito_Light;
+			text-transform: uppercase;
+			padding: 11px 48px;
+			text-transform: uppercase;
+			background: #000;
+			color: #fff;
+			font-weight: 600; 
+			order:1;
+		}
+	}
+}

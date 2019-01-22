@@ -1,16 +1,19 @@
 main{
-	.bd-t{
-		border-top: solid 1px #e4e2e1;
-		margin-bottom: 15px;
-	}
+	padding-top: 18px;
 	
 	.wish{
 		.container{
 			border: solid 1px #e4e2e1;
 			width: 311px;
 			margin-bottom: 60px;
+
 			
 		}
 
+	}
+	.cart__check{
+		&__help{
+			display: none;
+		}
 	}
 }

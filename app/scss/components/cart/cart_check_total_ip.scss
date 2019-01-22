@@ -1,0 +1,41 @@
+@media #{$res_760} {
+	.cart__check{
+		display: flex;
+		justify-content:space-between;
+		&__left{
+			margin-right: 20px;
+		}
+		&__right{
+			flex:1;
+
+		}
+		&__subtotal{
+			margin-top: -39px;
+			display: flex;
+			justify-content:space-between;
+			h1{
+				font-size: 12px;
+				line-height: 4.2;
+				font-family: Nunito_Light;
+				text-transform: uppercase;
+				
+			}
+		}
+		&__delivery{
+		margin: 0;
+		}
+		&__right__voucher{
+		margin: 0;
+		}
+		&__check{
+		margin: 30px 0 0px 0;
+		text-align: center;
+
+		display: flex;
+		flex-direction:column;
+		a{
+			margin-bottom: 19px;
+		}
+	}
+	}
+}

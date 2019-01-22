@@ -1,0 +1,23 @@
+@media #{$res_760} {
+main{
+	
+	.bd-b{
+		border-top: solid 1px #e4e2e1;
+		margin-bottom: 15px;
+	}
+	.wish{
+		padding-top: 23px;
+		.container{
+			border: solid 1px #e4e2e1;
+			width: 750px;
+			margin-bottom: 60px;
+			
+			
+		}
+		&__title{
+			text-align: center; 
+		}
+
+	}
+}
+} 

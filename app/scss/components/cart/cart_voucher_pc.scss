@@ -1,0 +1,9 @@
+@media #{$res_1024} {
+	.cart__check{
+		&__voucher{
+			margin-top: 0px;
+			height: 87px;
+			width: 230px;
+		}
+	}
+}

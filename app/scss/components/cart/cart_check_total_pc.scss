@@ -1,0 +1,48 @@
+@media #{$res_1024} {
+	.cart__check{
+		display: flex;
+		justify-content:space-between;
+		&__left{
+			margin-right: 20px;
+			display: flex;
+		}
+		&__right{
+			flex:1;
+
+		}
+		&__subtotal{
+			margin-top: -20px;
+			display: flex;
+			justify-content:space-between;
+			h1{
+				font-size: 12px;
+				line-height: 4.2;
+				font-family: Nunito_Light;
+				text-transform: uppercase;
+				
+			}
+		}
+		&__delivery{
+		margin: 0;
+		}
+		&__right__voucher{
+		margin: 0;
+		}
+		&__check{
+		margin: 30px 0 0px 0;
+		text-align: center;
+		position: relative;
+
+		display: flex;
+		flex-direction:column;
+		a{
+			margin-bottom: 19px;
+		}
+		a:last-child{
+			position: absolute;
+			left: -667px;
+			padding: 11px 100px;
+		}
+	}
+	}
+}

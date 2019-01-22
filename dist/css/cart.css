@@ -1199,15 +1199,36 @@ main .new__list {
   }
 }
 
-main .bd-t {
-  border-top: solid 1px #e4e2e1;
-  margin-bottom: 15px;
+main {
+  padding-top: 18px;
 }
 
 main .wish .container {
   border: solid 1px #e4e2e1;
   width: 311px;
   margin-bottom: 60px;
+}
+
+main .cart__check__help {
+  display: none;
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+  main .bd-b {
+    border-top: solid 1px #e4e2e1;
+    margin-bottom: 15px;
+  }
+  main .wish {
+    padding-top: 23px;
+  }
+  main .wish .container {
+    border: solid 1px #e4e2e1;
+    width: 750px;
+    margin-bottom: 60px;
+  }
+  main .wish__title {
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1223,6 +1244,25 @@ main .wish .container {
   }
   main .wish .container {
     width: 960px;
+  }
+  main .cart__check__left {
+    position: relative;
+  }
+  main .cart__check__help {
+    left: 400px;
+    top: 148px;
+    display: block;
+    position: absolute;
+  }
+  main .cart__check__help a {
+    font-size: 11px;
+    font-family: 'Arial';
+    color: #aea012;
+  }
+  main .cart__check__help p {
+    font-size: 11px;
+    font-family: 'Arial';
+    color: #aaa;
   }
 }
 
@@ -1624,7 +1664,7 @@ main .wish__list__name {
 }
 
 main .wish__list__item {
-  padding: 18px 21px;
+  padding: 18px 25px;
   background: #f7f7f7;
   margin-bottom: 15px;
 }
@@ -1651,8 +1691,16 @@ main .wish__list__item a {
   font-weight: 500;
 }
 
+main .wish__list__item--ip--pt {
+  display: none;
+}
+
 main .wish__list__item--ip {
   display: none;
+}
+
+main .wish__list__item__info {
+  padding-left: 15px;
 }
 
 main .wish__list__item__info--ip {
@@ -1663,14 +1711,27 @@ main .wish__list__item__info__color {
   display: flex;
 }
 
+main .wish__list__item__info__name {
+  width: 100px;
+  line-height: 1.5 !important;
+}
+
 main .wish__list__item__info__qty {
   display: flex;
+  align-items: center;
 }
 
 main .wish__list__item__info__qty input {
   width: 47px;
   text-align: center;
-  border: #e4e2e1;
+  border: solid 1px #e4e2e1;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+main .wish__list__item__info__qty img {
+  height: 18px;
+  margin-right: 15px;
 }
 
 main .wish__list__item:last-child {
@@ -1687,4 +1748,489 @@ main .wish__title h1 {
   font-size: 24px;
   font-family: PlayfairDisplaySC_Regular;
   font-weight: 500;
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+  main .wish__list {
+    display: flex;
+    flex-direction: column;
+  }
+  main .wish__list__product {
+    margin-right: 274px;
+  }
+  main .wish__list__price {
+    margin-right: 61px;
+  }
+  main .wish__list__q-ty {
+    margin-right: 143px;
+  }
+  main .wish__list__name {
+    display: block;
+    padding: 20px 25px;
+  }
+  main .wish__list__name ul {
+    display: flex;
+  }
+  main .wish__list__name ul li {
+    font-size: 14px;
+    font-family: 'Nunito_Light';
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  main .wish__list__item {
+    padding: 18px 21px;
+    background: #f7f7f7;
+    margin-bottom: 15px;
+  }
+  main .wish__list__item ul {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+  }
+  main .wish__list__item h1 {
+    font-size: 10px;
+    font-family: 'Nunito_Light';
+    font-weight: bold;
+    line-height: 2.5;
+  }
+  main .wish__list__item__x {
+    margin: 7px 0 0 -80px;
+  }
+  main .wish__list__item a {
+    font-family: 'Arial';
+    font-size: 11px;
+    text-transform: none;
+    color: #000;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  main .wish__list__item--ip--pt {
+    display: block;
+    margin-top: -5px;
+  }
+  main .wish__list__item--ip--pt input {
+    width: 47px;
+    text-align: center;
+    border: solid 1px #e4e2e1;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  main .wish__list__item--ip {
+    display: block;
+  }
+  main .wish__list__item__tg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .wish__list__item__tg a {
+    text-decoration: none;
+    color: #aaaaaa;
+    font-size: 14px;
+  }
+  main .wish__list__item__up a {
+    font-size: 11px;
+    font-family: 'Arial';
+    padding-left: 35px;
+  }
+  main .wish__list__item--mb {
+    display: none;
+  }
+  main .wish__list__item__info {
+    display: none;
+  }
+  main .wish__list__item__info--ip {
+    display: block;
+    margin-left: -40px;
+  }
+  main .wish__list__item__info__color {
+    display: flex;
+  }
+  main .wish__list__item__info__name {
+    width: 100px;
+    line-height: 1.5 !important;
+  }
+  main .wish__list__item:last-child {
+    margin-bottom: 0px;
+  }
+  main .wish__title {
+    padding: 14px 0 14px 0;
+    border-bottom: solid 1px #e4e2e1;
+  }
+  main .wish__title h1 {
+    padding-left: 15px;
+    font-size: 24px;
+    font-family: PlayfairDisplaySC_Regular;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  main .wish__list {
+    display: flex;
+    flex-direction: column;
+  }
+  main .wish__list__product {
+    margin-right: 414px;
+  }
+  main .wish__list__price {
+    margin-right: 98px;
+  }
+  main .wish__list__q-ty {
+    margin-right: 171px;
+  }
+  main .wish__list__name {
+    display: block;
+    padding: 20px 25px;
+  }
+  main .wish__list__name ul {
+    display: flex;
+  }
+  main .wish__list__name ul li {
+    font-size: 14px;
+    font-family: 'Nunito_Light';
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  main .wish__list__item {
+    padding: 18px 21px;
+    background: #f7f7f7;
+    margin-bottom: 15px;
+  }
+  main .wish__list__item ul {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+  }
+  main .wish__list__item h1 {
+    font-size: 10px;
+    font-family: 'Nunito_Light';
+    font-weight: bold;
+    line-height: 2.5;
+  }
+  main .wish__list__item__x {
+    margin: 7px 0 0 -80px;
+  }
+  main .wish__list__item a {
+    font-family: 'Arial';
+    font-size: 11px;
+    text-transform: none;
+    color: #000;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  main .wish__list__item--ip--pt {
+    display: block;
+    margin-top: -5px;
+  }
+  main .wish__list__item--ip--pt input {
+    width: 47px;
+    text-align: center;
+    border: solid 1px #e4e2e1;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  main .wish__list__item--ip {
+    display: block;
+  }
+  main .wish__list__item__tg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .wish__list__item__tg a {
+    text-decoration: none;
+    color: #aaaaaa;
+    font-size: 14px;
+  }
+  main .wish__list__item__up a {
+    font-size: 11px;
+    font-family: 'Arial';
+    padding-left: 35px;
+  }
+  main .wish__list__item--mb {
+    display: none;
+  }
+  main .wish__list__item__info {
+    display: none;
+  }
+  main .wish__list__item__info--ip {
+    display: block;
+    margin-left: -40px;
+  }
+  main .wish__list__item__info__color {
+    display: flex;
+  }
+  main .wish__list__item__info__name {
+    width: 100px;
+    line-height: 1.5 !important;
+  }
+  main .wish__list__item:last-child {
+    margin-bottom: 0px;
+  }
+  main .wish__title {
+    padding: 14px 0 14px 0;
+    border-bottom: solid 1px #e4e2e1;
+  }
+  main .wish__title h1 {
+    padding-left: 15px;
+    font-size: 24px;
+    font-family: PlayfairDisplaySC_Regular;
+    font-weight: 500;
+  }
+}
+
+.cart__check {
+  margin-bottom: 80px;
+}
+
+.cart__check__estimate {
+  border: solid 1px #e4e2e1;
+  padding: 19px 17px;
+}
+
+.cart__check__estimate h1 {
+  font-size: 12px;
+  font-family: Nunito_Light;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.cart__check__estimate p {
+  font-size: 11px;
+  font-family: 'Arial';
+  color: #aaaaaa;
+  padding-top: 10px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+
+.cart__check__estimate select {
+  width: 100%;
+  border-radius: 50px;
+  padding: 10px;
+  margin-top: 9px;
+  border: solid 1px #e4e2e1;
+  background: #f7f7f7;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: Nunito_Light;
+  font-weight: 600;
+}
+
+.cart__check__estimate__bot {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart__check__estimate__bot input {
+  width: 130px;
+  height: 32px;
+  font-size: 11px;
+  font-family: 'Arial';
+  color: #aaaaaa;
+  padding-left: 11px;
+  border: solid 1px #e4e2e1;
+}
+
+.cart__check__estimate__bot a {
+  font-family: Nunito_Light;
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 11px 27px;
+  background: #000;
+  color: #fff;
+}
+
+@media only screen and (min-width: 1024px) {
+  .cart__check__estimate {
+    margin-right: 19px;
+    height: 196px;
+    width: 325px;
+  }
+}
+
+.cart__check__voucher {
+  margin-top: 10px;
+  border: solid 1px #e4e2e1;
+  padding: 19px 17px;
+  position: relative;
+}
+
+.cart__check__voucher h1 {
+  font-size: 12px;
+  font-family: Nunito_Light;
+  text-transform: uppercase;
+}
+
+.cart__check__voucher input {
+  margin-top: 20px;
+  height: 30px;
+  width: 100%;
+  border: solid 1px #e4e2e1;
+}
+
+.cart__check__voucher img {
+  position: absolute;
+  width: 10px;
+  height: 20px;
+  top: 61px;
+  right: 22px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .cart__check__voucher {
+    margin-top: 0px;
+    height: 87px;
+    width: 230px;
+  }
+}
+
+.cart__check__right__top {
+  padding: 19px 17px;
+}
+
+.cart__check__subtotal, .cart__check__delivery, .cart__check__right__voucher, .cart__check__check {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart__check__subtotal h1, .cart__check__delivery h1, .cart__check__right__voucher h1, .cart__check__check h1 {
+  font-size: 12px;
+  line-height: 2;
+  font-family: Nunito_Light;
+  text-transform: uppercase;
+}
+
+.cart__check__total {
+  border-top: solid 1px #e4e2e1;
+  display: flex;
+  align-items: center;
+  padding: 18px 17px;
+  margin-top: 2px;
+  justify-content: space-between;
+}
+
+.cart__check__total h1 {
+  font-size: 13px;
+  line-height: 1.2;
+  font-family: Nunito_Light;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.cart__check__check {
+  margin: 35px 0 86px 0;
+}
+
+.cart__check__check a {
+  font-size: 10px;
+  font-family: Nunito_Light;
+  text-transform: uppercase;
+  padding: 11px 19px;
+  text-transform: uppercase;
+  border: solid 1px #e4e2e1;
+  color: #000;
+  font-weight: 600;
+  order: 2;
+}
+
+.cart__check__check a:first-child {
+  font-size: 10px;
+  font-family: Nunito_Light;
+  text-transform: uppercase;
+  padding: 11px 48px;
+  text-transform: uppercase;
+  background: #000;
+  color: #fff;
+  font-weight: 600;
+  order: 1;
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+  .cart__check {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cart__check__left {
+    margin-right: 20px;
+  }
+  .cart__check__right {
+    flex: 1;
+  }
+  .cart__check__subtotal, .cart__check__delivery, .cart__check__right__voucher, .cart__check__check {
+    margin-top: -39px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .cart__check__subtotal h1, .cart__check__delivery h1, .cart__check__right__voucher h1, .cart__check__check h1 {
+    font-size: 12px;
+    line-height: 4.2;
+    font-family: Nunito_Light;
+    text-transform: uppercase;
+  }
+  .cart__check__delivery {
+    margin: 0;
+  }
+  .cart__check__right__voucher {
+    margin: 0;
+  }
+  .cart__check__check {
+    margin: 30px 0 0px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .cart__check__check a {
+    margin-bottom: 19px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cart__check {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cart__check__left {
+    margin-right: 20px;
+    display: flex;
+  }
+  .cart__check__right {
+    flex: 1;
+  }
+  .cart__check__subtotal, .cart__check__delivery, .cart__check__right__voucher, .cart__check__check {
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .cart__check__subtotal h1, .cart__check__delivery h1, .cart__check__right__voucher h1, .cart__check__check h1 {
+    font-size: 12px;
+    line-height: 4.2;
+    font-family: Nunito_Light;
+    text-transform: uppercase;
+  }
+  .cart__check__delivery {
+    margin: 0;
+  }
+  .cart__check__right__voucher {
+    margin: 0;
+  }
+  .cart__check__check {
+    margin: 30px 0 0px 0;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .cart__check__check a {
+    margin-bottom: 19px;
+  }
+  .cart__check__check a:last-child {
+    position: absolute;
+    left: -667px;
+    padding: 11px 100px;
+  }
 }
