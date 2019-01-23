@@ -1281,21 +1281,16 @@ main .cart__check__help {
   display: none;
 }
 
-.wrapper header .slidebar-wrapper {
-  position: fixed;
-  z-index: 50;
-  overflow-x: hidden;
-  height: 1000%;
-  width: 100%;
-  left: 0;
-  top: 0;
-}
-
 .wrapper header .slide-container {
-  width: 45%;
+  top: 0px;
+  width: 37%;
   height: 100%;
+  z-index: 20;
+  position: fixed;
+  left: -37%;
   background: #036f66;
   overflow-x: hidden;
+  transition: ease-out 0.5s;
 }
 
 .wrapper header .menu-pc {
@@ -1316,7 +1311,12 @@ main .cart__check__help {
 }
 
 .wrapper header .slidebar__menu nav {
+  height: 100%;
   padding-top: 30px;
+}
+
+.wrapper header .slidebar__menu nav ul {
+  height: 100%;
 }
 
 .wrapper header .slidebar__menu nav ul li {
@@ -1324,11 +1324,11 @@ main .cart__check__help {
 }
 
 .wrapper header .slidebar__menu nav ul li a {
-  color: #000;
+  color: #08621e;
   font-family: PlayfairDisplaySC_Regular;
   font-weight: 500;
   line-height: 2;
-  color: #9a9a9a;
+  font-weight: bold;
   font-size: 15px;
 }
 
@@ -1341,6 +1341,7 @@ main .cart__check__help {
 }
 
 .wrapper header .slide-bg {
+  display: none;
   background: #036f66;
   position: fixed;
   top: 0;
@@ -1349,6 +1350,11 @@ main .cart__check__help {
   width: 100%;
   height: 100%;
   z-index: 1;
+}
+
+.wrapper header .slidebar {
+  display: block;
+  left: 0%;
 }
 
 .footer-top--mb ul {
@@ -1412,21 +1418,16 @@ main .cart__check__help {
   display: none;
 }
 
-.wrapper header .slidebar-wrapper {
-  position: fixed;
-  z-index: 50;
-  overflow-x: hidden;
-  height: 1000%;
-  width: 100%;
-  left: 0;
-  top: 0;
-}
-
 .wrapper header .slide-container {
-  width: 45%;
+  top: 0px;
+  width: 37%;
   height: 100%;
+  z-index: 20;
+  position: fixed;
+  left: -37%;
   background: #036f66;
   overflow-x: hidden;
+  transition: ease-out 0.5s;
 }
 
 .wrapper header .menu-pc {
@@ -1447,7 +1448,12 @@ main .cart__check__help {
 }
 
 .wrapper header .slidebar__menu nav {
+  height: 100%;
   padding-top: 30px;
+}
+
+.wrapper header .slidebar__menu nav ul {
+  height: 100%;
 }
 
 .wrapper header .slidebar__menu nav ul li {
@@ -1455,11 +1461,11 @@ main .cart__check__help {
 }
 
 .wrapper header .slidebar__menu nav ul li a {
-  color: #000;
+  color: #08621e;
   font-family: PlayfairDisplaySC_Regular;
   font-weight: 500;
   line-height: 2;
-  color: #9a9a9a;
+  font-weight: bold;
   font-size: 15px;
 }
 
@@ -1472,6 +1478,7 @@ main .cart__check__help {
 }
 
 .wrapper header .slide-bg {
+  display: none;
   background: #036f66;
   position: fixed;
   top: 0;
@@ -1480,6 +1487,11 @@ main .cart__check__help {
   width: 100%;
   height: 100%;
   z-index: 1;
+}
+
+.wrapper header .slidebar {
+  display: block;
+  left: 0%;
 }
 
 .footer-top--mb ul {
@@ -1552,10 +1564,15 @@ main .cart__check__help {
     top: 0;
   }
   .wrapper header .menu .slide-container {
+    top: 0px;
     width: 30%;
     height: 100%;
+    z-index: 20;
+    position: fixed;
+    left: -45%;
     background: #036f66;
     overflow-x: hidden;
+    transition: ease-out 0.7s;
   }
   .wrapper header .menu .menu-pc {
     display: none;
@@ -1572,17 +1589,21 @@ main .cart__check__help {
     height: 100%;
   }
   .wrapper header .menu .slidebar__menu nav {
+    height: 100%;
     padding-top: 30px;
+  }
+  .wrapper header .menu .slidebar__menu nav ul {
+    height: 100%;
   }
   .wrapper header .menu .slidebar__menu nav ul li {
     padding-left: 13%;
   }
   .wrapper header .menu .slidebar__menu nav ul li a {
-    color: #000;
+    color: #08621e;
     font-family: PlayfairDisplaySC_Regular;
-    font-weight: 500;
     line-height: 2;
-    color: #9a9a9a;
+    font-weight: bold;
+    font-size: 16px;
   }
   .wrapper header .menu .slidebar__menu nav ul li:active {
     background: #f74747;
@@ -1591,6 +1612,7 @@ main .cart__check__help {
     color: #fff;
   }
   .wrapper header .menu .slide-bg {
+    display: none;
     background: #036f66;
     position: fixed;
     top: 0;
@@ -1599,6 +1621,10 @@ main .cart__check__help {
     width: 100%;
     height: 100%;
     z-index: 1;
+  }
+  .wrapper header .menu .slidebar {
+    display: block;
+    left: 0%;
   }
 }
 
@@ -1665,6 +1691,9 @@ main .cart__check__help {
   }
   .wrapper header .menu .slide-bg {
     display: none;
+  }
+  .wrapper header .menu .menu-pc {
+    display: block;
   }
 }
 

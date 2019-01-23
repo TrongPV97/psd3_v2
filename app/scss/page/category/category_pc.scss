@@ -1,0 +1,189 @@
+@media #{$res_1024} {
+	.cate{
+		.cate--flex{
+			display: flex;
+		}
+		margin-bottom: 187px;
+		display: flex;
+		justify-content: space-between;
+			
+			.cate-filter{
+				margin-top: 0px;
+				padding-right: 40px;
+				
+				
+
+				img{
+
+					top: 15px;
+					width: 2%; 
+				}
+				&__women{
+
+
+					ul{
+						display: block;
+					}
+				}
+				&__cat {
+					h2{
+						display: block;
+
+					}
+					ul{
+						display: block;
+					}
+				}
+				.reset{
+					position: unset;
+					top: 0px;
+					font-family: 'Arial';
+					font-size: 12px;
+					left: 0%;
+					transform:translatex(-0%);
+					color:#aaaaaa;
+
+				}
+
+				&__size,&__color,&__brand{
+					&__list{
+						display: block;
+					}
+				}
+				&__price{
+					&__ruler,&__num{
+						display: block;
+					}
+				}
+				&__img{
+					display: block;
+				}
+				
+			}
+			.cat-product{
+				display: flex;
+				flex-direction:column;
+				.cat-position{
+					position: relative;
+					width: 729px;
+					top: 0px;
+					&__title{
+						border-bottom: solid 1px #e4e2e1;
+						position: unset;
+						height: 24px;
+						margin-bottom: 20px;
+						h1{
+							font-family: PlayfairDisplaySC_Regular;
+							font-size: 24px;
+							position: absolute;
+							text-transform: uppercase;
+							text-align: center;
+							font-weight: 500;
+							top: 1.25%;
+							left: 0%;
+						
+							background: #fff;
+							padding: 0 5px 0 5px;
+
+
+						}
+					}
+				}
+				.cat__sort{
+					display: flex;
+					align-items:center;
+					h1{
+						font-family: Nunito_Light;
+						font-size: 10px;
+						font-weight: 500;
+						margin-right: 9px;
+					}
+					h2{
+						font-family: Nunito_Light;
+						font-size: 10px;
+						font-weight: 500;
+						margin-right: 9px; 
+					}
+					select{
+						font-family: 'Arial';
+						font-size: 11px;
+						color: #aaaaaa;
+						margin-right: 45px;
+						padding: 9px 53px 9px 9px;
+					}
+					select:last-child{
+						padding-right: 40px;
+					}
+				}
+
+				.cat__women{
+					
+
+					
+					h2{
+						display: block;
+						position: absolute;
+						top: 60%;
+						transform: translateY(-28%);
+						width: 45%;
+						text-align: left;
+						font-family: Nunito_Light;
+						font-size: 12px;
+						text-transform: uppercase;
+						font-weight: 500;
+						padding-left: 30px;
+					}
+					h1{
+						position: absolute;
+						top: 50%;
+						transform: translateY(-28%);
+						width: 45%;
+						text-align: left;
+						font-family: PlayfairDisplaySC_Regular;
+						font-size: 47px;
+						text-transform: uppercase;
+						font-weight: 500;
+						padding-left: 30px;
+					}
+
+				}
+				
+			}
+			
+			.cat-bot{
+				margin-top: 75px;
+				display: flex;
+				justify-content:space-between;
+				align-items:center;
+			}
+			.cat-page{
+				a{
+					font-size: 11px;
+					font-family: 'Arial';
+				}
+				li{
+					margin-left: 9px;
+					display: flex;
+					align-items:center;
+				}
+				.cat-page-num{
+					color: #aaaaaa;
+					border: solid 1px #e4e2e1;
+					display: flex;
+					width: 19px;
+					height: 19px;
+					align-items:center; 
+					justify-content:center;
+				}		
+				ul{
+					display: flex;
+					justify-content:space-between;
+					align-items:center;
+				}
+			}
+
+		}
+		
+	
+}
+ 

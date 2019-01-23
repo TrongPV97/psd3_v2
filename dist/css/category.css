@@ -1210,6 +1210,95 @@ $res_1200 : "only screen and (min-width: 1200px)"; */
   }
 }
 
+.cat__list {
+  margin-top: 43px;
+}
+
+.cat__list__row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cat__list__row--ip {
+  display: none;
+}
+
+.cat__list__item {
+  text-align: center;
+}
+
+.cat__list__item--ip {
+  display: none;
+}
+
+.cat__list__item h1 {
+  font-size: 12px;
+  padding-top: 7px;
+  font-family: PlayfairDisplaySC_Regular;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.cat__list__item h2 {
+  font-family: Nunito_Light;
+  font-size: 10px;
+  padding-top: 7px;
+  text-transform: uppercase;
+}
+
+.cat__list__item:first-child {
+  padding-right: 23px;
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+  .cat__list {
+    margin-top: 43px;
+  }
+  .cat__list__row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .cat__list__row--ip {
+    display: none;
+  }
+  .cat__list__row--pc {
+    display: none;
+  }
+  .cat__list__item--ip {
+    display: block;
+  }
+  .cat__list__item:first-child {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cat__list {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .cat__list__row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .cat__list__row--ip {
+    display: block;
+  }
+  .cat__list__row--pc {
+    display: block;
+  }
+  .cat__list__item--ip {
+    display: block;
+  }
+  .cat__list__item:first-child {
+    padding-right: 0px;
+  }
+}
+
 .wrapper .breadcrumb {
   display: none;
 }
@@ -1724,5 +1813,399 @@ $res_1200 : "only screen and (min-width: 1200px)"; */
   }
   .wrapper main .benefit {
     padding-bottom: 20px;
+  }
+}
+
+.topbrand {
+  display: block !important;
+}
+
+.cate .cate-filter {
+  margin-top: 220px;
+}
+
+.cate .cate-filter__women__title, .cate .cate-filter__size__title, .cate .cate-filter__price__title, .cate .cate-filter__color__title, .cate .cate-filter__cat__title, .cate .cate-filter__brand__title {
+  display: none;
+  position: relative;
+}
+
+.cate .cate-filter__women__title h1, .cate .cate-filter__size__title h1, .cate .cate-filter__price__title h1, .cate .cate-filter__color__title h1, .cate .cate-filter__cat__title h1, .cate .cate-filter__brand__title h1 {
+  font-family: Nunito_Light;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: solid 1px #e4e2e1;
+  background: #f7f7f7;
+  padding: 10px 0 10px 14px;
+  border-radius: 15px;
+}
+
+.cate .cate-filter__women__title img, .cate .cate-filter__size__title img, .cate .cate-filter__price__title img, .cate .cate-filter__color__title img, .cate .cate-filter__cat__title img, .cate .cate-filter__brand__title img {
+  position: absolute;
+  top: 17px;
+  right: 17px;
+  width: 3%;
+}
+
+.cate .cate-filter__women {
+  margin-top: 10px;
+}
+
+.cate .cate-filter__women ul {
+  display: none;
+}
+
+.cate .cate-filter__cat {
+  margin-top: 6px;
+}
+
+.cate .cate-filter__cat h2 {
+  display: none;
+}
+
+.cate .cate-filter__cat ul {
+  display: none;
+}
+
+.cate .cate-filter .reset {
+  position: absolute;
+  top: 658px;
+  font-family: 'Arial';
+  font-size: 12px;
+  left: 50%;
+  transform: translatex(-50%);
+  color: #aaaaaa;
+}
+
+.cate .cate-filter__size, .cate .cate-filter__color, .cate .cate-filter__brand {
+  margin-top: 6px;
+}
+
+.cate .cate-filter__size__list, .cate .cate-filter__color__list, .cate .cate-filter__brand__list {
+  display: none;
+}
+
+.cate .cate-filter__price {
+  margin-top: 6px;
+}
+
+.cate .cate-filter__price__ruler, .cate .cate-filter__price__num {
+  display: none;
+}
+
+.cate .cate-filter__img {
+  display: none;
+}
+
+.cate .cat-product .cat-position {
+  position: absolute;
+  width: 311px;
+  top: 169px;
+}
+
+.cate .cat-product .cat-position__title {
+  border-bottom: solid 1px #e4e2e1;
+  position: relative;
+  height: 24px;
+  margin-bottom: 20px;
+}
+
+.cate .cat-product .cat-position__title h1 {
+  font-family: PlayfairDisplaySC_Regular;
+  font-size: 24px;
+  position: absolute;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  top: 35%;
+  left: 0%;
+  background: #fff;
+  padding: 0 5px 0 5px;
+}
+
+.cate .cat-product .cat__sort {
+  display: none;
+}
+
+.cate .cat-product .cat__women h2 {
+  display: none;
+}
+
+.cate .cat-product .cat__women h1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-28%);
+  width: 34%;
+  text-align: right;
+  font-family: PlayfairDisplaySC_Regular;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.cate .cat-bot {
+  display: none;
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+  .topbrand {
+    display: block !important;
+  }
+  .topbrand__list__2, .topbrand__list__3, .topbrand__list__5, .topbrand__list__6 {
+    display: block !important;
+  }
+  .cate {
+    margin-bottom: 187px;
+  }
+  .cate .cate-filter {
+    margin-top: 474px;
+  }
+  .cate .cate-filter h1 {
+    font-family: Nunito_Light;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: solid 1px #e4e2e1;
+    background: #f7f7f7;
+    padding: 10px 0 10px 14px;
+    border-radius: 15px;
+  }
+  .cate .cate-filter img {
+    top: 15px;
+    width: 2%;
+  }
+  .cate .cate-filter__women ul {
+    display: none;
+  }
+  .cate .cate-filter__cat h2 {
+    display: none;
+  }
+  .cate .cate-filter__cat ul {
+    display: none;
+  }
+  .cate .cate-filter .reset {
+    position: absolute;
+    top: 952px;
+    font-family: 'Arial';
+    font-size: 12px;
+    left: 50%;
+    transform: translatex(-50%);
+    color: #aaaaaa;
+  }
+  .cate .cate-filter__size__list, .cate .cate-filter__color__list, .cate .cate-filter__brand__list {
+    display: none;
+  }
+  .cate .cate-filter__price__ruler, .cate .cate-filter__price__num {
+    display: none;
+  }
+  .cate .cate-filter__img {
+    display: none;
+  }
+  .cate .cat-product .cat-position {
+    position: absolute;
+    width: 750px;
+    top: 214px;
+  }
+  .cate .cat-product .cat-position__title {
+    border-bottom: solid 1px #e4e2e1;
+    position: relative;
+    height: 24px;
+    margin-bottom: 20px;
+  }
+  .cate .cat-product .cat-position__title h1 {
+    font-family: PlayfairDisplaySC_Regular;
+    font-size: 24px;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    top: 35%;
+    left: 0%;
+    background: #fff;
+    padding: 0 5px 0 5px;
+  }
+  .cate .cat-product .cat__sort {
+    display: none;
+  }
+  .cate .cat-product .cat__women h2 {
+    display: block;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-28%);
+    width: 45%;
+    text-align: left;
+    font-family: Nunito_Light;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 30px;
+  }
+  .cate .cat-product .cat__women h1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-28%);
+    width: 45%;
+    text-align: left;
+    font-family: PlayfairDisplaySC_Regular;
+    font-size: 47px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 30px;
+  }
+  .cate .cat-bot {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cate {
+    margin-bottom: 187px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .cate .cate--flex {
+    display: flex;
+  }
+  .cate .cate-filter {
+    margin-top: 0px;
+    padding-right: 40px;
+  }
+  .cate .cate-filter img {
+    top: 15px;
+    width: 2%;
+  }
+  .cate .cate-filter__women ul {
+    display: block;
+  }
+  .cate .cate-filter__cat h2 {
+    display: block;
+  }
+  .cate .cate-filter__cat ul {
+    display: block;
+  }
+  .cate .cate-filter .reset {
+    position: unset;
+    top: 0px;
+    font-family: 'Arial';
+    font-size: 12px;
+    left: 0%;
+    transform: translatex(0%);
+    color: #aaaaaa;
+  }
+  .cate .cate-filter__size__list, .cate .cate-filter__color__list, .cate .cate-filter__brand__list {
+    display: block;
+  }
+  .cate .cate-filter__price__ruler, .cate .cate-filter__price__num {
+    display: block;
+  }
+  .cate .cate-filter__img {
+    display: block;
+  }
+  .cate .cat-product {
+    display: flex;
+    flex-direction: column;
+  }
+  .cate .cat-product .cat-position {
+    position: relative;
+    width: 729px;
+    top: 0px;
+  }
+  .cate .cat-product .cat-position__title {
+    border-bottom: solid 1px #e4e2e1;
+    position: unset;
+    height: 24px;
+    margin-bottom: 20px;
+  }
+  .cate .cat-product .cat-position__title h1 {
+    font-family: PlayfairDisplaySC_Regular;
+    font-size: 24px;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    top: 1.25%;
+    left: 0%;
+    background: #fff;
+    padding: 0 5px 0 5px;
+  }
+  .cate .cat-product .cat__sort {
+    display: flex;
+    align-items: center;
+  }
+  .cate .cat-product .cat__sort h1 {
+    font-family: Nunito_Light;
+    font-size: 10px;
+    font-weight: 500;
+    margin-right: 9px;
+  }
+  .cate .cat-product .cat__sort h2 {
+    font-family: Nunito_Light;
+    font-size: 10px;
+    font-weight: 500;
+    margin-right: 9px;
+  }
+  .cate .cat-product .cat__sort select {
+    font-family: 'Arial';
+    font-size: 11px;
+    color: #aaaaaa;
+    margin-right: 45px;
+    padding: 9px 53px 9px 9px;
+  }
+  .cate .cat-product .cat__sort select:last-child {
+    padding-right: 40px;
+  }
+  .cate .cat-product .cat__women h2 {
+    display: block;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-28%);
+    width: 45%;
+    text-align: left;
+    font-family: Nunito_Light;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 30px;
+  }
+  .cate .cat-product .cat__women h1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-28%);
+    width: 45%;
+    text-align: left;
+    font-family: PlayfairDisplaySC_Regular;
+    font-size: 47px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 30px;
+  }
+  .cate .cat-bot {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cate .cat-page a {
+    font-size: 11px;
+    font-family: 'Arial';
+  }
+  .cate .cat-page li {
+    margin-left: 9px;
+    display: flex;
+    align-items: center;
+  }
+  .cate .cat-page .cat-page-num {
+    color: #aaaaaa;
+    border: solid 1px #e4e2e1;
+    display: flex;
+    width: 19px;
+    height: 19px;
+    align-items: center;
+    justify-content: center;
+  }
+  .cate .cat-page ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }

@@ -1,0 +1,29 @@
+@media #{$res_1024} {
+.cat__list{
+	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	&__row{
+		display: flex;
+		justify-content:space-between;
+		margin-top: 20px;
+		&--ip{
+			display: block;
+		}
+		&--pc{
+			display: block;
+		}
+	}
+	&__item{
+		&--ip{
+			display: block; 
+		}
+
+
+	}
+	&__item:first-child{
+		padding-right: 0px; 
+	}
+}
+
+}

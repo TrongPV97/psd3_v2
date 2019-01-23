@@ -1,0 +1,26 @@
+@media #{$res_760} {
+.cat__list{
+	margin-top: 43px;
+	&__row{
+		display: flex;
+		justify-content:space-between;
+		margin-top: 20px;
+		&--ip{
+			display: none;
+		}
+		&--pc{
+			display: none;
+		}
+	}
+	&__item{
+		&--ip{
+			display: block;
+		}
+
+
+	}
+	&__item:first-child{
+		padding-right: 0px; 
+	}
+}
+}

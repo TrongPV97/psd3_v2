@@ -5,6 +5,8 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="../css/mix.css">
 	<link rel="stylesheet" href="../css/home.css">
+	 <script type=”text/javascript” src=”http://code.jquery.com/jquery-2.0.3.min.js”></script>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -70,31 +72,24 @@
 							<li><a href="">blog</a></li>
 						</ul>
 					</nav>
-					<div class="slide-bg">
+					<div class="slide-bg" id="slide-bg" class="openbtn" class="openbtn" onclick="closeNav()" >
 						
 					</div>
-					<div class="slidebar-wrapper">
-						<div class="slide-container">
-							<div class="slidebar__info">
+					<div class="slide-container" id='slide-container'>
+								<div class="slidebar__info">
 								<img src="images/personal.png" alt="">
 							</div>
 							<div class="slidebar__menu">
 								<nav>
 									<ul>
-										<li><a href="">women</a></li>
-										<li><a href="">men</a></li>
-										<li><a href="">kids</a></li>
-										<li><a href="">accessories</a></li>
-										<li><a href="">whats new </a></li>
-										<li><a href="">brands</a></li>
-										<li><a href="">sale</a></li>
-										<li><a href="">blog</a></li>
+										<li><a href="">my account</a></li>
+										<li><a href="">wish list</a></li>
+										<li><a href="">Checkout</a></li>
+										<li><a href="">log in</a></li>
 									</ul>
 								</nav>
 							</div>		
-						</div>
-						
-					</div>			
+						</div>			
 					
 				</div>
 				
@@ -420,14 +415,22 @@
 						<p>© 2016 the shop. All Rights Reserved.</p>
 					</div>
 				</div>
-			</div>
-		</footer>
+			</div> 
+		</footer>  
 	</div>
-<!-- <script type="text/javascript">
+<script type=”text/javascript” src=”js/jquery.js”></script>
+<script type="text/javascript">
 	function openNav() {
-  		document.getElementsByClassName("slidebar-wrapper").addClass= "block";
+  		document.getElementById("slide-container").classList.add("slidebar");
+  		document.getElementById("slide-bg").classList.add("slidebar");  		
 	}
-</script> -->
+	function closeNav() {
+  		document.getElementById("slide-container").classList.remove("slidebar");
+  		document.getElementById("slide-bg").classList.remove("slidebar");  		
+	}
+
+	
+</script>
 	
 </body>
 </html>
