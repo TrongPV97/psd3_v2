@@ -1,0 +1,46 @@
+.description-product__pade{
+	display: none;
+}
+.plush-product{
+	.container{
+		display: flex;
+		flex-direction:column;
+	}
+
+	 
+	.relate-pro{
+		order:2;
+		&__title{
+			margin-top: 38px;
+			margin-bottom: 50px;
+			border-top: solid 1px #e4e2e1;
+			position: relative;
+			h1{
+				position: absolute;
+				font-size: 24px;
+				font-family: PlayfairDisplaySC_Regular;
+				text-transform: uppercase;
+				font-weight: 500;
+				top: -19px;
+				background: #fff;
+			}
+		}
+		&__next{
+			display: none;
+		}
+	}
+	.review-pro{
+		margin-top: 40px;
+		border: solid 1px #e4e2e1;
+		padding: 0 7px;
+		
+		&__title{
+			text-align: center;
+			font-size: 24px;
+		padding-top: 7px;
+		font-family: PlayfairDisplaySC_Regular;
+		text-transform: uppercase;
+		font-weight: 500;
+		}
+	}
+}

@@ -1,0 +1,35 @@
+.account{
+	margin-bottom: 329px;
+	&__title{
+		text-align: center;
+		h1{
+			font-family: PlayfairDisplaySC_Regular;
+			font-size: 24px;
+			font-weight: 500;
+			margin:37px 0 39px 0;
+
+		}
+	}
+	&__info{
+		&__title{
+			display: flex;
+			flex-direction:column;
+			&__his,&__per,&__add{
+				text-align: center;
+				h1{
+					padding: 20px;
+					border: solid 1px #e4e2e1;
+					font-family: Nunito_Light;
+					font-size: 13px;
+					text-transform: uppercase;
+					font-weight: 500;
+				}
+			}
+			&__per,&__add{
+				h1{
+					border-bottom: none;
+				}
+			}
+		}
+	}
+}

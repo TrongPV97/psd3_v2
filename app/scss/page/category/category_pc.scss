@@ -1,5 +1,6 @@
 @media #{$res_1024} {
 	.cate{
+		margin-top: 20px;
 		.cate--flex{
 			display: flex;
 		}
@@ -9,54 +10,232 @@
 			
 			.cate-filter{
 				margin-top: 0px;
+				flex-basis:245px;
 				padding-right: 40px;
-				
-				
+
 
 				img{
 
 					top: 15px;
 					width: 2%; 
 				}
+				h3{
+					font-family: Nunito_Light;
+					font-size: 11px;
+					font-weight: 600;
+					text-transform: uppercase;
+				}
 				&__women{
+					&__title{
+						display: none;
+						&--active{
+							display: block;
+							position: relative;
+							img{
+								position: absolute;
+								width: 4%; 
+								top: 5px;
+								right: 0px;
+							}
+						}
+					}
+					border: solid 1px #e4e2e1;
+					padding: 10px 13px;
 
 
 					ul{
+						padding-left: 9px;
 						display: block;
+						li{
+							a{
+								font-family: Nunito_Regular;
+								font-size: 10px;
+								font-weight: 600;
+								text-transform: uppercase;
+								color: #000;
+								
+							}
+						}
 					}
 				}
 				&__cat {
+					&__title{
+						display: none;
+						&--active{
+							display: block;
+							position: relative;
+							img{
+								position: absolute;
+								width: 5%; 
+								top: 5px;
+								right: 0px;
+							}
+						}
+					}
+
+					border: solid 1px #e4e2e1;
+					padding: 10px 13px;
 					h2{
+						margin-top: 23px;
 						display: block;
+						font-family: Nunito_Bold;
+						font-size: 10px;
+						text-transform: uppercase;
+						padding-left: 10px;
 
 					}
 					ul{
+						padding-left: 23px;
 						display: block;
+						li{
+							a{
+								font-family: Nunito_Regular;
+								font-size: 10px;
+								font-weight: 600;
+								text-transform: uppercase;
+								color: #000;
+								
+							}
+						}
 					}
 				}
 				.reset{
 					position: unset;
 					top: 0px;
 					font-family: 'Arial';
-					font-size: 12px;
+					font-size: 9px;
 					left: 0%;
 					transform:translatex(-0%);
 					color:#aaaaaa;
 
 				}
+				&__brand{
+					&__list{
+						flex-direction:column;
+					}
+					
+				}
 
 				&__size,&__color,&__brand{
+					&__title{
+						display: none;
+						&--active{
+							display: block;
+							position: relative;
+							img{
+								position: absolute;
+								width: 5%; 
+								top: 5px;
+								right: 0px;
+							}
+							
+						}
+					}
+
+					border: solid 1px #e4e2e1;
+					padding: 10px 13px;
 					&__list{
+						display: flex;
+						justify-content:space-between;
+						&__item{
+							display: flex;
+							margin-top: 12px;
+
+							input{
+								margin-right: 6px;
+							}
+							h3{
+								font-family: Nunito_Light;
+								font-size: 10px;
+								font-weight: 600;
+								text-transform: uppercase;
+							}
+						}
+					}
+					ul{
+						padding-left: 9px;
 						display: block;
+						li{
+							a{
+								font-family: Nunito_Regular;
+								font-size: 10px;
+								font-weight: 600;
+								text-transform: uppercase;
+								color: #000;
+								padding-left: 9px;
+							}
+						}
 					}
 				}
 				&__price{
-					&__ruler,&__num{
+					&__title{
+						display: none;
+						&--active{
+							display: block;
+							position: relative;
+							img{
+								position: absolute;
+								width: 5%; 
+								top: 5px;
+								right: 0px;
+							}
+						}
+					}
+					border: solid 1px #e4e2e1;
+					padding: 10px 13px;
+					&__ruler{
 						display: block;
+					}
+					&__num{
+						margin-top: 15px;
+						display: flex;
+						justify-content:space-between;
+						input{
+							padding-left: 14px;
+							width: 34px;
+							height: 23px;
+						}
+					}
+					ul{
+						padding-left: 9px;
+						display: block;
+						li{
+							a{
+								font-family: Nunito_Regular;
+								font-size: 10px;
+								font-weight: 600;
+								text-transform: uppercase;
+								color: #000;
+								padding-left: 9px;
+							}
+						}
 					}
 				}
 				&__img{
 					display: block;
+					position: relative;
+					margin-top: 50px;
+					img{
+						width: 100% !important;
+					}
+					&__info{
+						position: absolute;
+						background: #fff;
+						bottom: 7px;
+						padding: 15px 10px;
+						h1{
+							font-family: Nunito_Light;
+							font-size: 14px;
+							font-weight: 600;
+							text-transform: uppercase;
+						}
+						p{
+							font-family: Nunito_Light;
+							font-size: 11px;
+							color: #aaaaaa;
+							text-transform: uppercase;
+						}
+					}
 				}
 				
 			}
@@ -182,6 +361,18 @@
 				}
 			}
 
+		}
+		.ui-widget.ui-widget-content {
+			margin-top: 27px;
+			width: 172px;
+			height: 5px;
+			z-index: 0;
+		}
+		.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+		    border-radius: 50%;
+		    width: 10px !important;
+		    height: 10px !important;
+		    top: -50.8% !important;
 		}
 		
 	

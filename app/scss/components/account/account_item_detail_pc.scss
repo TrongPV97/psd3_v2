@@ -1,0 +1,91 @@
+@media #{$res_1024} {
+	.account{
+		
+	&__info{
+		&__item{
+
+			&__detail{
+				&__id{
+					position: relative;
+					padding:10px 30px;
+					h1{
+						font-family: Nunito_Regular;
+						font-size: 12px;
+						text-transform: uppercase;
+					}
+					a{
+						display: block;
+						font-family: Nunito_Regular;
+						font-size: 17px;
+						padding: 7px 29.5px;
+						background: #000;
+						color: #fff;
+						position: absolute;
+						text-transform: uppercase;
+						top: 0;
+						right: 0;
+					}
+				}
+				
+				&__name{
+					display: flex;					
+				}
+				&__pre,&__q-ty{
+					display: block;
+				}
+				&__q-ty{
+					margin-right: 70px;
+				}
+				&__pre{
+					margin-right: 86px;
+				}
+				&__pro{
+					margin-right: 180px;
+				}
+				&__name{
+					padding: 30px 10px 13px 10px;
+					border-bottom: solid 1px #e4e2e1;
+					h3{
+						font-family: Nunito_Light;
+						font-size: 12px;
+						text-transform: uppercase;
+					}
+				}
+				&__prod{
+					display: block; 
+					&--ip{
+						display: none;
+					}
+				}
+				&__qty{
+					display: block;
+				}
+
+
+			}
+			&__details{
+				&--pd{
+					padding: 0 62px;
+				}
+			}
+			&__total{
+				width: 229px;
+				
+
+
+			}
+			&__time{
+				margin: 0 62px;
+				border-top: solid 1px #e4e2e1;
+				padding: 21px 10px;
+				p{
+					line-height: 2.5;
+				}
+			}
+
+			
+		}
+	}
+}
+
+}

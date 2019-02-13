@@ -1,0 +1,12 @@
+@media #{$res_760} {
+	.image-product{
+	&__item{
+		&--ip{
+			display: block;
+		}
+		&--pc{
+			display: none;
+		}
+	}
+}
+}

@@ -1,0 +1,35 @@
+@media #{$res_1024} {
+	.image-product{
+		flex-direction:row;
+	&__list{
+		order:1;
+		margin-right: 20px;
+		display: flex;
+		flex-direction:column;
+
+	}
+	&__view{
+		order:1;
+	}
+	&__item{
+		&__ri{
+			display: none;
+		}
+		padding: 10px 0px;
+		&__le{
+			display: none;
+		}
+		&--pc{
+			display: block;
+			width: 20%;
+		}
+		&--pc:last-child{
+			width: 40%;
+			margin-top: 34px;
+		}
+		&--ip{
+			display: block;
+		}
+	}
+}
+}

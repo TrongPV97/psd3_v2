@@ -1,0 +1,112 @@
+@media #{$res_1024} {
+	.account{
+	&__info{
+		&__name{
+			padding: 27px 30px;
+			&__num{
+				&--ip{
+					display: block;
+					font-family: Nunito_Light;
+					font-size: 12px;
+					text-transform: uppercase;
+					margin-right: 84px;
+				}
+				&--mb{
+					display: none;
+				}
+			}
+			&__date{
+				&--ip{
+					display: block;
+					font-family: Nunito_Light;
+					font-size: 12px;
+					text-transform: uppercase;
+
+				}
+
+			}
+			&__stt{
+
+				font-family: Nunito_Light;
+				font-size: 12px;
+				text-transform: uppercase;
+				margin-left: 109px;
+				
+			}
+			&__total{
+
+				font-family: Nunito_Light;
+				font-size: 12px;
+				text-transform: uppercase;
+				margin-left: 102px;
+				
+			}
+
+		}
+		&__list__item{
+			padding: 10px;
+			display: flex;
+			justify-content: space-between;
+			background: #f7f7f7;
+			margin-top: 5px;
+			position: relative;
+			padding-right: 130px;
+			padding-left: 30px;
+		}
+		&__item{
+
+			&__num{
+				display: none;
+				&--ip{
+					display: block;
+					font-family: Nunito_Regular;
+					font-size: 11px;
+					text-transform: uppercase;
+					padding-right: 20px;
+				}
+			}
+			&__date{
+				display: none;
+				&--ip{
+					display: block;
+					font-family: Nunito_Regular;
+					font-size: 11px;
+					text-transform: uppercase;
+					
+				}
+
+			}
+			&__detail{
+				display: none;
+				&--ip{
+					display: block;
+					font-family: Nunito_Regular;
+					font-size: 10px;
+					padding: 11px 14px;
+					background: #000;
+					color: #fff;
+					position: absolute;
+					text-transform: uppercase;
+					top: 0;
+					right: 0;
+
+				}
+			}
+			&__pri{
+				font-family: Nunito_Regular;
+				font-size: 11px;
+				text-transform: uppercase;
+
+			}
+
+			&__stt{
+				font-family: Nunito_Regular;
+				font-size: 11px;
+				text-transform: uppercase;
+
+			}
+			
+		}
+	}
+}
+}

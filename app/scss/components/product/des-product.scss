@@ -1,0 +1,91 @@
+.description-product{
+	&__code{
+		margin-top: 25px;
+		font-size: 11px;
+		font-weight: 500;
+		font-family: 'Arial';
+		text-transform: uppercase;
+		color: #aaaaaa;
+	}
+	&__name{
+		font-size: 24px;
+		padding-top: 7px;
+		font-family: PlayfairDisplaySC_Regular;
+		text-transform: uppercase;
+		font-weight: 500;
+	}
+	&__des1{
+		p{
+		margin-top: 10px;
+		font-size: 11px;
+		font-weight: 500;
+		font-family: 'Arial';
+		color: #aaaaaa;
+		span{
+			color:#aea012;
+		}
+		}
+	}
+	&__price{
+		font-size: 18px;
+		padding: 20px 0;
+		font-family: Nunito_Light;
+		text-transform: uppercase;
+		font-weight: 500;
+	}
+	&__dec2{
+		border-top: solid 1px #e4e2e1;
+		margin-top: 25px;
+		h1{
+			font-size: 14px;
+			padding-top: 7px;
+			font-family: PlayfairDisplaySC_Regular;
+			text-transform: uppercase;
+			font-weight: 600;
+		}
+		p{
+			margin-top: 10px;
+			font-size: 11px;
+			font-weight: 500;
+			font-family: 'Arial';
+			color: #aaaaaa;
+			text-align: justify;
+		}
+	}
+	&__add, &__tag, &__share{
+		border-top: solid 1px #e4e2e1;
+		margin-top: 7px;
+		h1{
+			font-size: 14px;
+			padding-top: 7px;
+			font-family: PlayfairDisplaySC_Regular;
+			text-transform: uppercase;
+			font-weight: 600;
+		}	
+	}
+	&__share{
+		display: flex;
+		align-items: center;
+		padding-top: 7px;
+		h1{
+			padding: 0px;
+			padding-right: 20px;
+		}
+		img{
+			width: 20px;
+			height: 20px;
+			padding-right: 5px;
+		}
+	}
+}
+.quick__view__info__bot a{
+	padding: 10px 17px;
+}
+.quick__view{
+	&__size__title{
+		width: 100%;
+	}
+	&__color__title{
+		width: 100%;
+	}
+}

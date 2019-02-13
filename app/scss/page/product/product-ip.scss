@@ -1,0 +1,39 @@
+@media #{$res_760} {
+	.container-ip{
+		width: 750px;
+		margin: 0 auto;
+	}
+	.info-product{
+		margin-top: 23px;
+		display: flex;
+		.image-product{
+			padding-right: 28px;
+			
+		}
+		.description-product{
+			flex-basis:55%;
+		}
+	}
+	.plush-product{
+		.container{
+			flex-direction:row;
+		}
+		 
+		.relate-pro{
+			margin-top: 50px;
+			
+			order:1;
+			padding-right: 28px;
+			&__item{
+				&--ip{
+					display: block; 
+				}
+			}
+			
+		}
+		.review-pro{
+			order:2;
+			flex-basis:67%;
+		}
+	} 
+}

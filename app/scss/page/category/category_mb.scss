@@ -6,8 +6,11 @@
 			margin-top: 220px;
 			&__women,&__size,&__price,&__color,&__cat,&__brand{
 				&__title{
-					display: none;
+					
 					position: relative;
+					&--active{
+						display: none;
+					}
 					h1{
 						font-family: Nunito_Light;
 						font-size: 11px;

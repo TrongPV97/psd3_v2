@@ -1,0 +1,29 @@
+.image-product{
+	display: flex;
+	flex-direction:column;
+	&__list{
+		margin-top: 10px;
+		order:2;
+		display: flex;
+		align-items:center;
+
+	}
+	&__item{
+		padding:0 8px;
+		&--ip{
+			display: none;
+		}
+		&--pc{
+			display: none;
+		}
+		&__ri{
+			transform: rotate(180deg);
+			width: 20%;
+			height: 20%;
+		}
+		&__le{
+			width: 20%;
+			height: 20%;
+		}
+	}
+}

@@ -6,9 +6,14 @@
 	<link rel="stylesheet" href="../css/mix.css">
 	<link rel="stylesheet" href="../css/category.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	  <link rel="stylesheet" href="/resources/demos/style.css">
+	  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
 	<div class="wrapper">
+		<div class="quick__bg"></div>
 		<header>
 			<div class="topbar">
 				<div class="container">
@@ -29,10 +34,10 @@
 				<div class="topbar__right">
 					<nav>
 						<ul>
-							<li><a href="">my account</a></li>
-							<li><a href="">wish list</a></li>
+							<li><a href="http://localhost:3000/account.html">my account</a></li>
+							<li><a href="http://localhost:3000/wish-list.html">wish list</a></li>
 							<li><a href="">Checkout</a></li>
-							<li><a href="">log in</a></li>
+							<li><a href="http://localhost:3000/login.html">log in</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -49,13 +54,13 @@
 						</div>
 						<div class="title-page__right__cart">
 							<img src="images/cart.png" alt="">
-							<a href="">cart(0)</a>
+							<a href="http://localhost:3000/cart.html">cart(0)</a>
 						</div>
 					</div>
 				</div>
 				
 			</div>
-						<div class="menu">
+				<div class="menu">
 				<div class="container">
 					<img src="images/menu.png" alt="" href="javascript:void(0)" class="openbtn" onclick="openNav()">
 					<nav class="menu-pc">
@@ -67,7 +72,7 @@
 							<li><a href="">whats new </a></li>
 							<li><a href="">brands</a></li>
 							<li><a href="">sale</a></li>
-							<li><a href="">blog</a></li>
+							<li><a href="http://localhost:3000/blog.html">blog</a></li>
 						</ul>
 					</nav>
 					<div class="slide-bg" id="slide-bg" class="openbtn" class="openbtn" onclick="closeNav()" >
@@ -80,10 +85,10 @@
 							<div class="slidebar__menu">
 								<nav>
 									<ul>
-										<li><a href="">my account</a></li>
-										<li><a href="">wish list</a></li>
+										<li><a href="http://localhost:3000/account.html">my account</a></li>
+										<li><a href="http://localhost:3000/wish-list.html">wish list</a></li>
 										<li><a href="">Checkout</a></li>
-										<li><a href="">log in</a></li>
+										<li><a href="http://localhost:3000/login.html">log in</a></li>
 									</ul>
 								</nav>
 							</div>		
@@ -208,7 +213,9 @@
 							<img src="images/tenlen.png" alt="">
 						</div>
 						
-						<div class="cate-filter__price__ruler"></div>
+						<div class="cate-filter__price__ruler">
+							<div id="slider-range"></div>
+						</div>
 						<div class="cate-filter__price__num">
 							<input type="text" placeholder="50"><input type="text" placeholder="200">
 						</div>
@@ -315,7 +322,7 @@
 					</div>
 					<div class="cate-filter__img">
 						<img src="images/filter.png" alt="">
-						<div class="filter__img__info">						
+						<div class="cate-filter__img__info">						
 							<h1>Michael Kors</h1>
 							<p>spring 2015</p>
 						</div>
@@ -349,6 +356,46 @@
 							<img src="images/c1.png" alt="">
 							<h1>detailed swing dress</h1>
 							<h2>$1,875.00</h2>
+							<div class="quick">
+								<div class="quick__title">
+									<h1>quick view</h1>
+									<img class="quick__title__x" src="images/x.png" alt="">
+								</div>
+								<div class="quick__view">
+								<img src="images/c2.png" alt="">
+								<div class="quick__view__info">
+
+									<h6>MU-4587-89</h6>
+									<h1>detailed swing dress</h1>
+									<h5>Full Product Details</h5>
+									<h2>$1,875.00</h2>
+									<div class="quick__view__size__title">
+										<h1>Size</h1>
+										<img src="images/tenxuong.png" alt="">
+									</div>
+									<div class="quick__view__color__title">
+										<h1>Color</h1>
+										<img src="images/tenxuong.png" alt="">
+									</div>
+									<div class="quick__view__qty__title">
+										<h1>Qty</h1>
+										<img src="images/tenxuong.png" alt="">
+									</div>
+									<div class="quick__view__info__bot">
+										<a href="" class="quick__view__info__add">add to cart</a>
+										<a href="" class="quick__view__info__wish">
+											<img src="images/tim.png" alt="">
+											<p>Wishlist</p>
+										</a>
+										<a href="" class="quick__view__info__com">
+											<img src="images/tt.png" alt="">
+											<p>Compare</p>
+										</a>
+									</div>
+								</div>
+							</div>
+							</div>
+							
 						</div>
 						<div class="cat__list__item">
 							<img src="images/c2.png" alt="">
@@ -627,5 +674,20 @@
 
 	
 </script>
+<script>
+  $( function() {
+    $( "#slider-range" ).slider({
+      range: true,
+      min: 0,
+      max: 500,
+      values: [ 50, 300 ],
+      slide: function( event, ui ) {
+        $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+      }
+    });
+    $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+      " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+  } );
+  </script>
 </body>
 </html>

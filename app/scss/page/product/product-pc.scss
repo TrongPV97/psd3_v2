@@ -1,0 +1,74 @@
+@media #{$res_1024} {
+	.description-product__pade{
+		display: block;
+		
+		h2{
+			font-family: Nunito_Light;
+			font-size: 10px;
+			position: absolute;
+			right: 0px;
+			top: 0px;
+		}
+	}
+	.container-ip{
+		width: 750px;
+		margin: 0 auto;
+	}
+	.info-product{
+		margin-top: 23px;
+		display: flex;
+		.image-product{
+			padding-right: 28px;
+			
+		}
+		.description-product{
+			flex-basis:55%;
+			position: relative;
+		}
+	}
+	.plush-product{
+		.container{
+			flex-direction:row;
+		}
+		 
+		.relate-pro{
+			margin-top: 50px;
+			position: relative;
+
+			
+			order:1;
+			padding-right: 28px;
+			&__item{
+				&--ip{
+					display: block; 
+				}
+				&--pc{
+					display: block;
+				}
+			}
+			&__next{
+				display: block;
+				position: absolute;
+				background: #fff;
+				right: 12px;
+				top: 28px;
+				width: 85px;
+				img{
+					width: 10px;
+					height: 20px;
+					padding-left: 30px;
+				}
+				img:first-child{
+					transform:rotate(180deg);
+					padding: 0;
+					padding-right: 13px;
+				}
+			}
+			
+		}
+		.review-pro{
+			order:2;
+			flex-basis:76.5%;
+		}
+	} 
+}

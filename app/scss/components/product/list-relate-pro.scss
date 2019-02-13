@@ -1,0 +1,56 @@
+.relate-pro{
+	&__list{
+		display: flex;
+		.relate-pro__item{
+			padding-right: 20px;
+			position: relative;     
+
+			&--ip, &--pc{
+				display: none;
+			}
+			&__info{
+				&__name{
+					h1{
+						font-size: 12px;
+						padding-top: 7px;
+						font-family: PlayfairDisplaySC_Regular;
+						text-transform: uppercase;
+						line-height: 1;
+						font-weight: 600;
+						text-align: center;
+					}
+				}
+				&__describe{
+					p{
+						font-family: Nunito_Light;
+						font-size: 11px;
+						padding-top: 7px;
+						font-weight: 600;
+						text-align: center;
+						text-transform: uppercase;
+					}
+				}
+			}
+			&__sale{
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				img{
+					width: 102%;
+				}
+				p{
+					font-size: 11px;
+					position: absolute;
+					font-family: PlayfairDisplaySC_Bold;
+					color: #fff;
+					font-weight: 600;
+					top: 5.5px;
+					left: 4px; 
+				}
+			}
+		}
+		.relate-pro__item:last-child{
+			padding: 0;    
+		}
+	}
+}

@@ -1,0 +1,46 @@
+  @import 'mix';
+
+	//page
+  @import
+  'page/blog_post/blog_post',
+  'page/blog/blog',
+  'page/blog/blog_ipad',
+  'page/blog/blog_pc',
+  'page/home/theshop_mobile',
+  'page/home/theshop_ipad',
+  'page/home/theshop_pc',
+  'page/login/login_mobile',
+  'page/login/login_ipad',
+  'page/login/login_pc',
+  'page/account/account',
+  'page/account/account_ip',
+  'page/account/account_pc';
+ //blog_post
+  @import
+
+	'components/layout/menu_nav_mobile',
+	'components/layout/footer-link_mobile',
+	'components/layout/newsletter_mobile',
+	'components/layout/menu_nav_mobile',
+	'components/layout/footer-link_mobile',
+	'components/layout/newsletter_mobile',
+	'components/layout/menu_nav_ipad',
+	'components/layout/footer-link_ipad',
+	'components/layout/newsletter_ipad',
+	'components/layout/menu_nav_pc',
+	'components/layout/newsletter_pc',
+	'components/layout/footer-link_pc',
+	'components/home/topbrand_list_mobile',
+	'components/home/benefit_list_mobile',
+	'components/home/topbrand_list_ipad',
+	'components/home/benefit_list_ipad',
+	'components/home/topbrand_list_pc',
+	'components/home/benefit_list_pc',
+	'components/account/account_info_list',
+	'components/account/account_info_list_ip',
+	'components/account/account_info_list_pc',
+	'components/account/account_item_detail',
+	'components/account/account_item_detail_ip',
+	'components/account/account_item_detail_pc'; 
+
+

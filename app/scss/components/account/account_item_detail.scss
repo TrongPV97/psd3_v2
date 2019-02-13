@@ -1,0 +1,117 @@
+.account{
+	&__info{
+		&__item{
+			&__detail{
+				&__id{
+					padding: 10px;
+					display: flex;
+					align-items:center;
+					justify-content: space-between;
+					background: #f7f7f7;
+					margin-top: 5px;
+					h1{
+						font-family: Nunito_Regular;
+						font-size: 12px;
+						text-transform: uppercase;
+					}
+					a{
+						font-family: Nunito_Regular;
+						font-size: 30px;
+						background: #000;
+						color: #fff;
+						padding: 0 12px;
+					}
+				}
+				&__name{
+					display: flex;					
+				}
+				&__pri,&__qty{
+					display: block;
+				}
+				&__pro{
+					margin-right: 160px;
+				}
+				&__name{
+					padding: 30px 10px 13px 10px;
+					border-bottom: solid 1px #e4e2e1;
+					h3{
+						font-family: Nunito_Light;
+						font-size: 12px;
+						text-transform: uppercase;
+					}
+				}
+				&__prod{
+					display: none; 
+				}
+				&__qty{
+					display: none;
+				}
+				&ss{
+					display: flex;
+					padding: 10px 30px 10px 10px;
+					justify-content:space-between;
+					border-bottom: solid 1px #e4e2e1;
+					h3{ 
+						font-family: Nunito_Light;
+						font-size: 12px;
+						text-transform: uppercase;
+					}
+				}
+
+
+			}
+			&__total{
+				width: 185px;
+				margin-right: 30px;
+				float: right;
+				margin-top: 17px;
+				
+				h1{
+					display: flex;
+					justify-content:space-between;
+					span{
+						font-family: Nunito_Light;
+						font-size: 12px;
+						text-transform: uppercase;
+						font-weight: 500;
+						margin-bottom: 10px;
+					}
+				}
+				h1:last-child{
+					border-bottom: solid 1px #e4e2e1;
+
+				}
+				&__bot{
+
+					display: flex;
+					margin: 13px 0px 22px 0px;
+					justify-content:space-between;
+					h1{
+						font-family: Nunito_Light;
+						font-size: 12px;
+						text-transform: uppercase;
+						text-decoration: none;
+						border: none !important;
+
+					}
+				}
+
+
+			}
+			&__time{
+				border-top: solid 1px #e4e2e1;
+				padding: 21px 10px;
+				p{
+					font-family: 'Arial';
+					font-size: 11px;
+					font-weight: bold;
+					span{
+						font-weight: 500;
+					}
+				}
+			}
+
+			
+		}
+	}
+}

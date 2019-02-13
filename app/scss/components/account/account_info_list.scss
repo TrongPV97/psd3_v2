@@ -1,0 +1,95 @@
+.account{
+	&__info{
+		&__list{
+			border: solid 1px #e4e2e1;
+			border-top: none;
+		}
+		&__name{
+			display: flex;
+			padding: 27px 10px;
+			&__num{
+				&--ip{
+					display: none;
+				}
+				&--mb{
+					font-family: Nunito_Light;
+					font-size: 12px;
+					text-transform: uppercase;
+				}
+			}
+			&__date{
+				&--ip{
+					display: none;
+
+				}
+
+			}
+			&__stt{
+
+				font-family: Nunito_Light;
+				font-size: 12px;
+				text-transform: uppercase;
+				margin-left: 35px;
+				
+			}
+			&__total{
+
+				font-family: Nunito_Light;
+				font-size: 12px;
+				text-transform: uppercase;
+				margin-left: 52px;
+				
+			}
+
+		}
+		&__list__item{
+			padding: 10px;
+			display: flex;
+			justify-content: space-between;
+			background: #f7f7f7;
+			margin-top: 5px;
+		}
+		&__item{
+			&__num{
+				font-family: Nunito_Regular;
+				font-size: 11px;
+				text-transform: uppercase;
+				&--ip{
+					display: none;
+				}
+			}
+			&__date{
+				&--ip{
+					display: none;
+					
+				}
+
+			}
+			&__detail{
+				font-family: Nunito_Regular;
+				font-size: 30px;
+				background: #000;
+				color: #fff;
+				padding: 0 11px;
+				text-transform: uppercase;
+				&--ip{
+					display: none;
+				}
+			}
+			&__pri{
+				font-family: Nunito_Regular;
+				font-size: 11px;
+				text-transform: uppercase;
+
+			}
+
+			&__stt{
+				font-family: Nunito_Regular;
+				font-size: 11px;
+				text-transform: uppercase;
+
+			}
+			
+		}
+	}
+}
