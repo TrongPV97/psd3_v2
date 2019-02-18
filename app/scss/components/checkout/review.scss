@@ -1,0 +1,40 @@
+.checkout-box{	
+	&__order{
+		margin-top: 10px;
+		border: solid 1px #e6e4e3;
+		position: relative;
+		
+		&__title{
+			display: none;
+
+		}
+		&--active{
+			
+			&__title{
+				font-size: 24px;
+				font-family: PlayfairDisplaySC_Regular;
+				font-weight: 500;
+				border-bottom: solid 1px #e6e4e3;
+				padding: 17px;
+			}
+		}
+		&__instruction{
+			font-family: Nunito_Regular;
+			font-size: 10px;
+			text-transform: uppercase;
+			padding: 27px 17px;
+		}
+		
+		&__now{
+			display: inline-block; 
+			
+			margin: 0px 17px 20px;
+			padding: 11px 100px;
+			background: #000;
+			color: #fff;
+			font-family: 'Arial'; 
+			text-transform: uppercase;
+			font-size: 10px;
+		}
+	}
+}

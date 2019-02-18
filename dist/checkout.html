@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/mix.css">
+	<link rel="stylesheet" href="../css/checkout.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="topbar">
+				<div class="container">
+					<div class="topbar__left">
+					<select name="" id="" class="topbar__left--display">
+						<option value="" >company</option>
+					</select>
+					<select name="" id="">
+						<option value="">usd</option>
+					</select>
+					<select name="" id="">
+						<option value="">English</option>
+					</select>
+				</div>
+				<div class="topbar__center">
+					<p>free shipping on orders above 50$</p>
+				</div>
+				<div class="topbar__right">
+					<nav>
+						<ul>
+							<li><a href="http://localhost:3000/account.html">my account</a></li>
+							<li><a href="http://localhost:3000/wish-list.html">wish list</a></li>
+							<li><a href="">Checkout</a></li>
+							<li><a href="http://localhost:3000/login.html">log in</a></li>
+						</ul>
+					</nav>
+				</div>
+				</div>
+				
+			</div>
+			<div class="title-page">
+				<div class="container">
+					<h1><a href="index.html">the shop</a></h1>
+					<div class="title-page_right">
+						<div class="title-page__right__search">
+							<img src="images/search.png" alt="">
+							<a href="">search</a>
+						</div>
+						<div class="title-page__right__cart">
+							<img src="images/cart.png" alt="">
+							<a href="http://localhost:3000/cart.html">cart(0)</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<div class="menu">
+				<div class="container">
+					<img src="images/menu.png" alt="" href="javascript:void(0)" class="openbtn" onclick="openNav()">
+					<nav class="menu-pc">
+						<ul>
+							<li><a href="products.html">women</a></li>
+							<li><a href="products.html">men</a></li>
+							<li><a href="products.html">kids</a></li>
+							<li><a href="products.html">accessories</a></li>
+							<li><a href="products.html">whats new </a></li>
+							<li><a href="products.html">brands</a></li>
+							<li><a href="products.html">sale</a></li>
+							<li><a href="http://localhost:3000/blog.html">blog</a></li>
+						</ul>
+					</nav>
+					<div class="slide-bg" id="slide-bg" class="openbtn" class="openbtn" onclick="closeNav()" >
+						
+					</div>
+					<div class="slide-container" id='slide-container'>
+								<div class="slidebar__info">
+								<img src="images/personal.png" alt="">
+							</div>
+							<div class="slidebar__menu">
+								<nav>
+									<ul>
+										<li><a href="http://localhost:3000/account.html">my account</a></li>
+										<li><a href="http://localhost:3000/wish-list.html">wish list</a></li>
+										<li><a href="checkout.html">Checkout</a></li>
+										<li><a href="http://localhost:3000/login.html">log in</a></li>
+									</ul>
+								</nav>
+							</div>		
+						</div>			
+					
+				</div>
+				
+				
+			</div>
+			
+		</header>
+		<main>
+			<div class="breadcrumb container">
+				<ol >
+				  <li><a href="#">Home</a></li>
+				  <li class="breadcrumb__space">/</li>
+				  <li><a href="#">cart</a></li>
+				</ol>
+				<div class="return">
+					<a href=""><   Return to Previous Page</a>
+				</div>
+				
+			</div>
+			<div class="checkout-page">
+				<div class="container">
+					<div class="checkout-page__recommend">
+						<h1 class="checkout-page__recommend__title">you will also love</h1>
+						<div class="checkout-page__recommend__list">
+							<div class="checkout-page__recommend__item">
+								<div class="checkout-page__recommend__item__img">
+									<img src="images/c1.png" alt="">
+								</div>
+								
+								<div class="checkout-page__recommend__item__info">
+									<h1 class="checkout-page__recommend__item__info__name">detailed swing dress</h1>
+									<h1 class="checkout-page__recommend__item__info__price">
+										$1,875.00
+									</h1>
+									<a href="" class="checkout-page__recommend__item__info__quick">quickview</a>
+								</div>
+							</div>
+							<div class="checkout-page__recommend__item">
+								<div class="checkout-page__recommend__item__img">
+									<img src="images/c5.png" alt="">
+								</div>
+								<div class="checkout-page__recommend__item__info">
+									<h1 class="checkout-page__recommend__item__info__name">detailed swing dress</h1>
+									<h1 class="checkout-page__recommend__item__info__price">
+										$1,875.00
+									</h1>
+									<a href="" class="checkout-page__recommend__item__info__quick">quickview</a>
+								</div>
+							</div>
+							<div class="checkout-page__recommend__item">
+								<div class="checkout-page__recommend__item__img">
+									<img src="images/c1.png" alt="">
+								</div>
+								<div class="checkout-page__recommend__item__info">
+									<h1 class="checkout-page__recommend__item__info__name">detailed swing dress</h1>
+									<h1 class="checkout-page__recommend__item__info__price">
+										$1,875.00
+									</h1>
+									<a href="" class="checkout-page__recommend__item__info__quick">quickview</a>
+								</div>
+							</div>
+
+						</div>
+						<div class="checkout-page__recommend__exit">
+							<img src="images/x.png" alt="" >
+						</div>
+						
+					</div>
+					<div class="checkout-page--flex">
+						<div class="checkout-box">
+							<div class="checkout-box__check">
+								<h1 class="checkout-box__check__title">01. checkout</h1>
+								<div class="checkout-box__check--active">
+									<h1 class="checkout-box__check--active__title">01. checkout</h1>
+									<p class="checkout-req">*Required</p>
+										<div class="checkout-box__check--flex">
+											<div class="checkout-box__check__l">								
+											<h1 class="checkout-box__check__l__regis">registered customers</h1>
+											<p class="checkout-box__check__l__ready">Already registered? <span>Please log in below:</span></p>
+											<h2 class="checkout-box__check__l__mail">e-mail*</h2>
+											<input type="text" class="checkout-box__check__l__txtmail">
+											<h2 class="checkout-box__check__l__pass">password*</h2>
+											<input type="text" class="checkout-box__check__l__txtpass">
+											<div class="checkout-box__check__l__bot">
+												<a href="" class="checkout-box__check__l__bot__log">log in & checkout</a>
+												<a href="" class="checkout-box__check__l__bot__foget">Password Help</a>
+											</div>
+
+
+										</div>
+										<div class="checkout-box__check__r">
+											
+											<h1 class="checkout-box__check__r__new">new customers</h1>
+											<p class="checkout-box__check__r__regis">Register and save time!</p>
+											<p class="checkout-box__check__r__regis-info">Register with us for future convenience:<br>
+											Fast and easy check out<br>
+											Easy access to your order history and status
+											</p>									
+											<div class="checkout-box__check__r__rdo">
+												<div class="checkout-box__check__r__rdo__item">
+													<input type="radio">
+													<h1>register</h1>
+												</div>
+												<div class="checkout-box__check__r__rdo__item">
+													<input type="radio">
+													<h1>checkout as guest</h1>
+												</div>
+											</div>
+											<a href="" class="checkout-box__check__r__bot">
+												continue
+											</a>
+
+										</div>
+										
+									</div>
+									
+									
+								</div>
+							</div>
+							<div class="checkout-box__billing">
+								<h1 class="checkout-box__billing__title">02. billing info</h1>
+								<div class="checkout-box__billing--active ">
+									<h1 class="checkout-box__billing--active__title">02. billing info</h1>
+									<p class="checkout-req">*Required</p>
+									<div class="checkout-box__billing__list">
+										<div class="checkout-box__billing__list--flex">
+											<div class="checkout-box__billing__item">
+												<h2>first name*</h2>
+												<input type="text">
+											</div>
+											<div class="checkout-box__billing__item">
+
+												<h2>last name*</h2>
+												<input type="text">
+											</div>
+										</div>
+										<div class="checkout-box__billing__list--flex">
+											<div class="checkout-box__billing__item">
+												<h2>company</h2>
+												<input type="text">
+											</div>
+											<div class="checkout-box__billing__item">
+
+												<h2>mail</h2>
+												<input type="text">
+											</div>
+										</div>
+										<div class="checkout-box__billing__list--flex">
+											<div class="checkout-box__billing__item">
+												<h2>Address 1</h2>
+												<input type="text">
+											</div>
+											<div class="checkout-box__billing__item">
+
+												<h2>Address 2</h2>
+												<input type="text">
+											</div>
+										</div>
+										<div class="checkout-box__billing__list--flex">
+											<div class="checkout-box__billing__item">
+												<h2>country</h2>
+												<select >
+													<option></option>
+												</select>
+											</div>
+											<div class="checkout-box__billing__item">
+
+												<h2>city</h2>
+												<input type="text">
+											</div>
+										</div>
+										<div class="checkout-box__billing__list--flex">
+											<div class="checkout-box__billing__item">
+												<h2>state</h2>
+												<select >
+													<option></option>
+												</select>
+											</div>
+											<div class="checkout-box__billing__item">
+
+												<h2>zip / postal code*</h2>
+												<input type="text">
+											</div>
+										</div>
+										<div class="checkout-box__billing__list--flex">
+											<div class="checkout-box__billing__item">
+												<h2>phone</h2>
+												<input type="text">
+											</div>
+											<div class="checkout-box__billing__item">
+
+												<h2>fax</h2>
+												<input type="text">
+											</div>
+										</div>
+										<div class="checkout-box__billing__list--flex">
+											<div class="checkout-box__billing__item">
+												<h2>Password*</h2>
+												<input type="text">
+											</div>
+											<div class="checkout-box__billing__item">
+
+												<h2>confirm password*</h2>
+												<input type="text">
+											</div>
+										</div>
+										
+										<div class="checkout-box__billing__ship">
+											<div class="checkout-box__billing__itembot">
+												<input type="radio" name="checkout-box__billing">
+												<h1>I want to subscribe to the newsletter</h1>
+											</div>
+											<div class="checkout-box__billing__itembot">
+												<input type="radio" name="checkout-box__billing">
+												<h1>ship to different address</h1>
+											</div>
+										</div>
+										<div class="checkout-box__billing__check">
+											<input type="checkbox">
+											<h1>I want to subscribe to the newsletter</h1>
+										</div>
+										<a href="" class="checkout-box__billing__continue">
+											continue
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="checkout-box__shipping-info">
+								<h1 class="checkout-box__shipping__title">03. shipping info</h1>
+								<div class="checkout-box__shipping checkout-box__shipping--active ">
+									<h1 class="checkout-box__shipping__title">03. shipping info</h1>
+								</div>
+							</div>
+							<div class="checkout-box__shipping-method">
+								<h1 class="checkout-box__shipping-method__title">04. shipping method</h1>
+								<div class="checkout-box__shipping-method--active ">
+									<h1 class="checkout-box__shipping-method--active__title">04. shipping method</h1>
+									<h1 class="checkout-box__shipping-method__instruction">
+										please choose a shipping method to deliver your order:
+									</h1>
+									
+									<div class="checkout-box__shipping-method__list">
+										<div class="checkout-box__shipping-method__item">
+											<input type="radio" name="checkout-box__shipping-method">
+											<h1>UPS (Ground) $7.25</h1>
+										</div>
+										<div class="checkout-box__shipping-method__item">
+											<input type="radio" name="checkout-box__shipping-method">
+											<h1>UPS (3 day select) $9.75</h1>
+										</div>
+										<div class="checkout-box__shipping-method__item">
+											<input type="radio" name="checkout-box__shipping-method">
+											<h1>UPS (next day air) $17.25</h1>
+										</div>
+										<div class="checkout-box__shipping-method__item">
+											<input type="radio" name="checkout-box__shipping-method">
+											<h1>UPS (second day air) $12.25</h1>
+										</div>
+											<div  class="checkout-box__shipping-method__continue">
+												<a href="">
+											continue
+													
+												</a>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+							<div class="checkout-box__pay">
+								<h1 class="checkout-box__pay__title">05. payment</h1>
+								<div class="checkout-box__pay--active ">
+									<h1 class="checkout-box__pay--active__title">05. payment</h1>
+									<p class="checkout-req">*Required</p>
+									<div class="checkout-box__pay__cart">
+										<img src="images/ck1.png" alt="">
+										<img src="images/ck2.png" alt="">
+										<img src="images/ck3.png" alt="">
+										<img src="images/ck4.png" alt="">
+									</div>
+									<div class="checkout-box__pay__list">
+										<h1>card holder*</h1>
+										<input type="text">
+										<h1>card number*</h1>
+										<input type="text">
+										<div class="checkout-box__pay__item">
+											<div class="checkout-box__pay__item__l">
+												<h1>expiration date*</h1>
+												<div class="checkout-box__pay__item__l__select">
+													<select name="" id="">
+														<option value=""></option>
+													</select>
+													<select name="" id="">
+														<option value=""></option>
+													</select>
+												</div>
+											</div>
+											<div class="checkout-box__pay__item__l__cvv">
+												<h1>cvv*</h1>
+												<input type="text">
+											</div>
+										</div>
+										<a href="" class="checkout-box__pay__continue">continue</a>
+									</div>
+									
+								</div>
+							</div>
+							<div class="checkout-box__order">
+								<h1 class="checkout-box__order__title">02. billing info</h1>
+								<div class=" checkout-box__order--active ">
+									<h1 class="checkout-box__order--active__title">02. billing info</h1>
+									<p class="checkout-req">*Required</p>
+									<h1 class="checkout-box__order__instruction">
+										Please review all the information on this page.Press the Order Now button to confirm your purchase. 
+									</h1>
+									<a href="" class="checkout-box__order__now">order now</a>
+								</div>
+							</div>
+						</div>
+						<div class="checkout-cart">
+							 
+								<div class="checkout-cart__title">
+									<h1>CART</h1>
+								</div>
+								<div class="checkout-cart__list">
+									<div class="checkout-cart__list__item">
+										<ul>
+											
+											<li><img src="images/c2.png" alt=""></li>
+											<li>
+											<div class="checkout-cart__list__item__info">
+												<h1 >detailed swing dress</h1>
+												<h1>color: blue</h1>
+												<h1>size: 12</h1>
+												<div class="checkout-cart__list__item__price">
+													<a href="">Edit Item</a>
+													<h1>$275.00</h1>
+												</div>
+												
+											</div>
+											</li>
+										</ul>							
+									</div>
+									<div class="checkout-cart__list__item ">
+										<ul>
+											
+											<li><img src="images/c3.png" alt=""></li>
+											<li>
+												<div class="checkout-cart__list__item__info">
+													<h1 >detailed swing dress</h1>
+													<h1>color: blue</h1>
+													<h1>size: 12</h1>
+													<div class="checkout-cart__list__item__price">
+														<a href="">Edit Item</a>
+														<h1>$275.00</h1>
+													</div>
+													
+												</div>
+												
+
+
+											</li>
+											
+										</ul>							
+									</div>
+								</div>
+							
+								<div class="checkout-cart__total">
+									<h1 class="checkout-cart__total__item">
+										<span>subtotal</span>
+										<span>$825.000</span>
+									</h1>
+									<h1 class="checkout-cart__total__item">
+										<span>delivery costs</span>
+										<span>$35.000</span>
+									</h1>
+									<h1 class="checkout-cart__total__item">
+										<span>gift voucher</span>
+										<span>$5.000</span>
+									</h1>
+									<h1 class="checkout-cart__total__item checkout-cart__total__item--bold">
+										<span>total inc tax</span>
+										<span>$855.00</span>
+									</h1>
+								</div>
+							
+						</div>
+					</div>			
+						
+					
+				</div>
+			</div>
+			<div class="topbrand">
+				<div class="container">
+					<div class="topbrand__title">
+						<h1>top brands</h1>
+					</div>
+					<div class="topbrand__list">
+						<ul>
+							<li class="topbrand__list__1"><a href="" ><img src="images/tb1.png" alt=""></a></li>
+							<li class="topbrand__list__2"><a href="" "><img src="images/tb2.png" alt=""></a></li>
+							<li class="topbrand__list__3"><a href=""><img src="images/tb3.png" alt=""></a></li>
+							<li class="topbrand__list__4"><a href=""><img src="images/tb4.png" alt=""></a></li>
+							<li class="topbrand__list__5"><a href=""><img src="images/tb5.png" alt=""></a></li>
+							<li class="topbrand__list__6"><a href=""><img src="images/tb6.png" alt=""></a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+			<div class="benefit">
+				<div class="container">
+					<div class="benefit__list">
+					<div class="benefit__list__item">
+						<div class="benefit__list__num">
+							<h1>01.</h1>
+						</div>
+						<div class="benefit__list__info">
+							<div class="benefit__list__name">
+								<h1>Free Shipping</h1>
+							</div>
+							<div class="benefit__list__describe">
+								<p>On all orders over $50</p>
+							</div>
+						</div>
+					</div>
+					<div class="benefit__list__item">
+						<div class="benefit__list__num">
+							<h1>02.</h1>
+						</div>
+						<div class="benefit__list__info">
+							<div class="benefit__list__name">
+								<h1>Money back guarantee</h1>
+							</div>
+							<div class="benefit__list__describe">
+								<p>On all orders</p>
+							</div>
+						</div>
+					</div>
+					<div class="benefit__list__item">
+						<div class="benefit__list__num">
+							<h1>03.</h1>
+						</div>
+						<div class="benefit__list__info">
+							<div class="benefit__list__name">
+								<h1>Worldwide Delivery</h1>
+							</div>
+							<div class="benefit__list__describe">
+								<p>To over 80 countries</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				
+			</div>
+		</main>
+		<footer>
+			<div class="container">
+				<div class="footer-top--mb">
+					<ul>
+						<li><a href="">About G-Star Raw  </a></li>
+						<li><a href="">G-Star Retailers </a></li>
+						<li><a href=""  class="footer-top--mb--bordern" >FAQ</a></li>
+						<li><a href="">Contact</a></li>
+						<li><a href="">Privacy Policy</a></li>
+						<li><a href=""  class="footer-top--mb--bordern" >Terms & Conditions</a></li>
+					</ul>
+				</div>
+				<div class="footer-top--pc">
+					<div class="footer-link">
+						<div class="footer-link__top">
+							<div class="footer-link__top__list ">
+								<h1 class="footer--none">shopping guide</h1>
+								<ul>
+									<li ><a href="" >About G-Star Raw</a></li>
+									<li class="footer--none"><a href="">Corporate Responsibility</a></li>
+									<li class="footer--none"><a href="">Press Room</a></li>
+									<li class="footer--none"><a href="">Careers</a></li>
+									<li class="footer--none"><a href="">G-Star Retailers</a></li>
+									<li class="footer--none"><a href="">Open a G-Star Store</a></li>
+								</ul>
+							</div>
+							<div class="footer-link__top__list">
+								<h1 class="footer--none">help & info</h1>
+								<ul>
+									<li><a href="">FAQ</a></li>
+									<li><a href="">Contact</a></li>
+									<li><a href="">Privacy Policy</a></li>
+									<li><a href="">Terms & Conditions</a></li>
+									<li><a href="">Disclaimer</a></li>
+								</ul>
+							</div>
+							<div class="footer-link__top__list ">
+								<h1>twitter</h1>
+								<p>check out the new upcoming phone !! #Valentine's Day #Australia http://t.co/wRye6rBElN <span>- 7 hours ago</span></p>
+								<p>your solution partner: http://t.co/StOrIs63bd #magento #IT #websitedevlopment <span>- 8 hours ago</span></p>
+							</div>
+						</div>
+						<div class="footer-link__bot ">
+							<div class="footer-link__bot__list">
+								<h1>about us</h1>
+								<p>One could refuse to pay expensive translators, the European languages are members of the same family. Their separate existence is a myth. Uses read more</p>
+							</div>
+							<div class="footer-link__bot__map ">
+								<div class="footer-link__map__img">
+									<img src="images/ad.png" alt="">
+								</div>
+								<div class="footer-link__map__info">
+									<div class="footer-link__map__name">
+										<h1>store location</h1>
+									</div>
+									<div class="footer-link__map__adress">
+										<address>
+											Company ltd.co<br />
+											234 Fake address name,<br />
+											Fake city name, Country <br>
+											01234 (000) 123 456 xxx
+										</address>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer-fb ">
+						<h1>facebook</h1>
+						<img src="images/fb.png" alt="">
+					</div>
+				</div>
+				<div class="footer-center">
+					<div class="newsletter">
+						<h1>newsletter</h1>
+						<input type="text">
+						<div class="newsletter__icon">
+							<img src="images/nl.png" alt="">
+						</div>
+					</div>
+					<div class="connect">
+						<h1>connect us</h1>
+						<ul>
+							<li><a href=""><img src="images/cn1.png" alt=""></a></li>
+							<li><a href=""><img src="images/cn2.png" alt=""></a></li>
+							<li><a href=""><img src="images/cn3.png" alt=""></a></li>
+							<li><a href=""><img src="images/cn4.png" alt=""></a></li>
+							<li><a href=""><img src="images/cn6.png" alt=""></a></li>
+							<li><a href=""><img src="images/cn7.png" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-coppyr">
+					
+					<div class="footer-coppyr__right">
+						<ul>
+							<li><a href=""><img src="images/cr1.png" alt=""></a></li>
+							<li><a href=""><img src="images/cr2.png" alt=""></a></li>
+							<li><a href=""><img src="images/cr3.png" alt=""></a></li>
+						</ul>
+					</div>
+					<div class="footer-coppyr__left">
+						<p>© 2016 the shop. All Rights Reserved.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+<script type="text/javascript">
+	function openNav() {
+  		document.getElementById("slide-container").classList.add("slidebar");
+  		document.getElementById("slide-bg").classList.add("slidebar");  		
+	}
+	function closeNav() {
+  		document.getElementById("slide-container").classList.remove("slidebar");
+  		document.getElementById("slide-bg").classList.remove("slidebar");  		
+	}
+
+	
+</script>	
+</body>
+</html>

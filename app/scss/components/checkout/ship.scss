@@ -1,0 +1,25 @@
+.checkout-box{	
+	&__shipping{
+		position: relative;
+
+		&-info{
+			border: solid 1px #e6e4e3;
+			margin-top: 10px;
+		}
+		
+		
+		&__title{
+			font-size: 24px;
+			font-family: PlayfairDisplaySC_Regular;
+			font-weight: 500;
+/* 			border-bottom: solid 1px #e6e4e3; */
+			padding: 17px;
+			background: #f7f7f7;
+			opacity:0.5;
+
+		}
+		&--active{
+			display: none;
+		}
+	}
+}

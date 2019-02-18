@@ -1,0 +1,18 @@
+@media #{$res_760} {
+	.checkout-box{
+	
+		&__billing{
+			&__list{
+				&--flex{
+					flex-direction:row;
+					justify-content:space-between;
+				}
+
+			}
+			&__item{
+				flex-basis:45%;
+			}
+
+		}
+	}
+}

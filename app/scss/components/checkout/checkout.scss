@@ -1,0 +1,132 @@
+.checkout-box{	
+	&__check{
+		border: solid 1px #e6e4e3;
+		margin-top: 10px;
+		
+		position: relative;
+		&__title{
+			display: none;
+
+		}
+		&--active{
+			
+			&__title{
+				font-size: 24px;
+				font-family: PlayfairDisplaySC_Regular;
+				font-weight: 500;
+				border-bottom: solid 1px #e6e4e3;
+				padding: 17px;
+			}
+		}
+		
+		&__l{
+			padding: 0px 17px 0 17px;
+			h1{
+				font-size: 10px;
+
+				text-transform: uppercase;
+				font-family: Nunito_Light;
+			}
+			&__regis{
+				margin: 30px 0 26px 0;
+				font-size:13px;
+				font-family: Nunito_Light;
+				text-transform: uppercase;
+				font-weight: 500;
+			}
+			&__ready{
+				font-size: 11px;
+				font-family: 'Arial';
+				font-weight: 600;
+				margin-bottom: 18px;
+				span{
+					font-weight: 500;
+				}
+			}
+			&__mail, &__pass{
+				font-size: 10px;
+				text-transform: uppercase;
+				font-family: Nunito_Light;
+				margin-top: 19px;
+			}
+			&__txtpass, &__txtmail{
+				width: 100%;
+				height: 30px;
+				border: solid 1px #e4e2e1;
+				margin-top: 5px;
+			}
+			&__bot{
+				margin: 20px 0 47px 0;
+				display: flex;
+				align-items:center;
+				justify-content:space-between;
+				a:last-child{
+					font-family: 'Arial';
+					text-transform:none;
+					font-size: 11px;
+					text-decoration: underline;
+					background: none;
+					color:#000;
+				}
+				a:first-child{
+					font-family: 'Arial'; 
+					font-size: 10px;
+					background: none;
+					text-transform: uppercase;
+					color:#fff; 
+					padding: 11px 22px;
+					background: #000;  
+				}
+			}
+		}
+		&__r{
+			padding: 0px 17px 32px 17px;
+			h1{
+				font-size: 10px;
+				text-transform: uppercase;
+				font-family: Nunito_Light;
+			}
+			&__new{
+				font-size:13px;
+				font-family: Nunito_Light;
+				text-transform: uppercase;
+				font-weight: 500;
+			}
+			&__regis{
+				font-size: 11px;
+				font-family: 'Arial';
+				font-weight: 700;
+				margin-top: 20px;
+			}
+			&__regis-info{
+				font-size: 11px;
+				font-family: 'Arial';
+				font-weight: 500;
+				margin-top: 15px;
+				line-height: 1.5;
+			}
+			&__rdo{
+
+				&__item{
+					margin-top: 15px;
+					margin-bottom: 15px;
+					display: flex;
+					input{
+						margin-right: 9px;
+					}
+				}
+			}
+			&__bot{
+
+				
+				padding: 11px 45px;
+				background: #000;
+				color: #fff;
+				font-family: 'Arial'; 
+				text-transform: uppercase;
+				font-size: 10px;
+			}
+		}
+
+	}
+}

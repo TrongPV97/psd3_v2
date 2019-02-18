@@ -2,6 +2,11 @@
 .wrapper{
     main{
       .slide{
+        .next{
+            
+          bottom: 30px !important; 
+              
+        }
         position: relative;
         height: 496px;
         .container{
@@ -9,7 +14,8 @@
           img{
           object-fit: cover; 
           height: 100%;     
-          }          
+          }
+
         }
         .slide__content{
             position: absolute;

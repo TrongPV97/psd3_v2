@@ -1,0 +1,76 @@
+@media #{$res_1024} {
+	.checkout-page{
+
+		&__recommend{
+			margin-top: 20px;
+			position: relative;
+			padding: 30px 20px;
+			background: #f7f7f7;
+			border: solid 1px #e4e2e1;
+			&__title{
+				font-size: 21px;
+				font-family: PlayfairDisplaySC_Regular;
+				font-weight: 500;
+			}
+			&__list{
+				margin-top: 31px;
+				display: flex;
+				justify-content:space-between;
+			}
+			&__item{
+				display: flex;
+				flex-basis:32%;
+				&__img{
+					flex-basis:60%; 
+					margin-right: 12px;
+					img{
+						border: solid 1px  #e4e2e1;
+					}
+
+				}
+				&__info{
+					&__name{
+						font-size: 14px;
+						font-family: PlayfairDisplaySC_Regular;
+						font-weight: 600;
+					}
+					&__price{
+						margin: 19px 0 24px 0px;
+						font-size: 12px;
+						font-family: Nunito_Light;
+						font-weight: 600;
+					}
+					&__quick{
+						font-size: 10px;
+						font-family: Nunito_Regular;
+						text-transform: uppercase;
+						background: #fff;
+						border: solid 1px #e4e2e1;
+						padding: 10px 24px;
+						color: #000;
+					}
+				}
+
+			}
+			&__exit{
+				display: flex;
+				align-items:center;
+				justify-content:center;
+				width: 30px;
+				height: 30px;
+				background: #fff;
+				border: solid 1px #e4e2e1;
+				position: absolute;
+				top: 21px;
+				right: 27px;
+
+				img{
+					
+					flex-basis:40%;
+				}
+
+				 
+			}
+		}
+	}
+}

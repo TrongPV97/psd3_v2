@@ -1,0 +1,97 @@
+.checkout-box{
+	
+	&__billing{
+		position: relative;
+		margin-top: 10px;
+		border: solid 1px #e6e4e3;
+		&__title{
+			display: none;
+
+		}
+		&--active{
+			
+			&__title{
+				font-size: 24px;
+				font-family: PlayfairDisplaySC_Regular;
+				font-weight: 500;
+				border-bottom: solid 1px #e6e4e3;
+				padding: 17px;
+			}
+		}
+		&__list{
+			padding: 27px 17px 30px 17px;
+			&--flex{
+				display: flex;
+				flex-direction:column;
+			}
+		}
+		&__item{
+			margin-top: 9px;
+			display: flex;
+			flex-direction:column;
+			
+			h2{
+				font-size: 10px;
+				text-transform: uppercase;
+				font-family: Nunito_Light;
+				margin-top: 19px;
+			}
+			input{
+				width: 100%;
+				height: 30px;
+				border: solid 1px #e4e2e1;
+				margin-top: 5px;
+			}
+			select{
+				width: 100%;
+				height: 30px;
+				border: solid 1px #e4e2e1; 
+				margin-top: 5px; 
+			} 
+		}
+		&__itembot{
+			margin-top: 9px;
+			display: flex;
+		
+			align-items:center;
+			input{
+				width: 14px;
+				margin: 0;
+				margin-right: 6px;
+			}
+			h1{
+				font-size: 10px;
+				text-transform: uppercase;
+				font-family: Nunito_Light;
+				
+				font-weight: 600;
+			}
+		}
+		&__check{
+			margin-top: 25px;
+			margin-bottom: 10px;
+			display: flex;
+			align-items:center;
+			input{
+				width: 18px;
+				margin: 0;
+				margin-right: 6px;
+			}
+			h1{
+				font-size: 10px;
+				text-transform: uppercase;
+				font-family: Nunito_Light;
+				
+				font-weight: 600;
+			}
+		}
+		&__continue{
+			padding: 11px 45px;
+			background: #000;
+			color: #fff;
+			font-family: 'Arial'; 
+			text-transform: uppercase;
+			font-size: 10px;
+		}
+	}
+}

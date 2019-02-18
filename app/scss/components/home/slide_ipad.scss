@@ -9,7 +9,12 @@
           img{
           object-fit: cover; 
           height: 100%;     
-          }          
+          }
+          .next{
+            
+            bottom: 30px;
+                
+          }        
         }
         .slide__content{
             position: absolute;

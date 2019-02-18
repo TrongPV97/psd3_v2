@@ -1,15 +1,19 @@
 @media #{$res_1024} {
 	.image-product{
-		flex-direction:row;
+		flex-direction:row; 
+		flex-basis:55%;
 	&__list{
 		order:1;
 		margin-right: 20px;
+		flex-basis: 75px;
 		display: flex;
 		flex-direction:column;
 
 	}
 	&__view{
 		order:1;
+		width: 100%;
+
 	}
 	&__item{
 		&__ri{

@@ -1,0 +1,21 @@
+.checkout-page{
+	.container{
+		display: flex;
+		flex-direction:column;
+		.checkout-box{
+			order:2;
+			margin-bottom: 50px;
+		}
+	}
+	&__recommend{
+		display: none;
+	}
+	.checkout-req{
+		font-family: 'Arial';
+		font-size: 11px;
+		position: absolute;
+		top: 29px;
+		right: 20px;
+	}
+
+}

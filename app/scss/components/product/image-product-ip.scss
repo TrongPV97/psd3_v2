@@ -1,5 +1,9 @@
 @media #{$res_760} {
 	.image-product{
+		flex-basis:351%;
+	&__list{
+	    z-index: 50;
+	}
 	&__item{
 		&--ip{
 			display: block;
@@ -7,6 +11,11 @@
 		&--pc{
 			display: none;
 		}
+	}
+	&__view{
+		order:1;
+		width: 100%;
+		height: 570px;
 	}
 }
 }

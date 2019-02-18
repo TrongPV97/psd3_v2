@@ -1,0 +1,19 @@
+@media #{$res_760} {
+	.checkout-box{	
+		&__check{
+			position: relative;
+			&--flex{
+				display: flex;
+				justify-content:space-between;
+			}
+			&__r{
+				margin-top: 30px;
+				margin-right: 76px;
+			}
+		}
+	}
+	.checkout-box__check__l__bot a:last-child{
+		display: block;
+		margin-left: 10px;
+	}
+}
